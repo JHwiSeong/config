@@ -4,25 +4,23 @@
       "keyword": "개인회생",
       "subrules": [
         { "contains": "금지한다", "result": "개회 금지명령" },
-        { "contains": "개시결정", "result": "개회 개시결정" },
+        { "contains": ["개시한다", "개시결정을하였으므로"], "mode": "or", "result": "개회 개시결정" },
+        { "contains": ["개시결정을하였으나", "새로채권자목록"], "mode": "or", "result": "개회 계획수정" },
         { "contains": "기각한다", "result": "개회 기각결정" },
-        { "contains": "기각하기로", "result": "개회 기각결정" },
-        { "contains": "기각결정을", "result": "개회 기각취소" },
-        { "contains": "취소", "result": "개회 기각취소" },
+        { "contains": "폐지한다", "result": "개회 폐지결정" },
+        { "contains": ["기각결정을", "취소"], "result": "개회 기각취소" },
         { "contains": "금지명령을", "result": "개회 금지취소" },
-        { "contains": "기일", "result": "개회 기일지정" },
-        { "contains": "지정", "result": "개회 기일지정" },
-        { "contains": "수정된", "result": "개회 기일지정" },
-        { "contains": "변제", "result": "개회 기일지정" },
-        { "contains": "재산", "result": "개회 면제재산" },
-        { "contains": "면제", "result": "개회 면제재산" },
-        { "contains": "별지", "result": "개회 면제재산" },
-        { "contains": "취하", "result": "개회 취하결정" },
-        { "contains": "허가", "result": "개회 취하결정" },
-        { "contains": "경정", "result": "개회 금지경정" },
-        { "contains": "경점", "result": "개회 금지경정" },
-        { "contains": "겸정", "result": "개회 금지경정" },
-        { "contains": "겸점", "result": "개회 금지경정" }
+        { "contains": ["기일", "지정"], "result": "개회 기일지정" },
+        { "contains": ["재산", "면제"] "result": "개회 면제재산" },
+        { "contains": ["별지", "면제"] "result": "개회 면제재산" },
+        { "contains": ["취하", "허가"], "result": "개회 취하결정" },
+        { "contains": ["경정", "경점", "겸점"] "mode": "or", "result": "개회 금지경정" }
+      ]
+    },
+    {
+      "keyword": "re:\\d{4}하단",
+      "subrules": [
+        { "contains": "파산을선고", "result": "파산 선고결정" }
       ]
     }
   ],
