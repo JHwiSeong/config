@@ -10,7 +10,7 @@
         { "contains": "폐지한다", "result": "개회 폐지결정" },
         { "contains": ["기각결정을", "취소"], "result": "개회 기각취소" },
         { "contains": ["금지명령을", "취소"], "result": "개회 금지취소" },
-        { "contains": ["기일", "지정"], "result": "개회 기일지정" },
+        { "contains": ["기간을", "정한다"], "result": "개회 기일지정" },
         { "contains": ["재산", "면제"], "result": "개회 면제재산" },
         { "contains": ["별지", "면제"], "result": "개회 면제재산" },
         { "contains": ["취하", "허가"], "result": "개회 취하결정" },
