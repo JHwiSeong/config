@@ -5,16 +5,16 @@
       "subrules": [
         { "contains": "금지한다", "result": "개회 금지명령" },
         { "contains": ["개시결정의주문", "개시결정을하였으므로"], "mode": "or", "result": "개회 개시결정" },
-        { "contains": ["주문", "개인회생절차를개시한다"], "mode": "and", "result": "개회 개시결정" },
+        { "contains": ["주문", "개인회생절차를개시한다", "이의기간을"], "mode": "and", "result": "개회 개시결정" },
         { "contains": ["개시결정을하였으나", "새로채권자목록"], "mode": "or", "result": "개회 계획수정" },
         { "contains": "기각한다", "result": "개회 기각결정" },
         { "contains": "폐지한다", "result": "개회 폐지결정" },
+        { "contains": ["취하", "허가"], "result": "개회 취하결정" },
         { "contains": ["기각결정을", "취소"], "result": "개회 기각취소" },
         { "contains": ["금지명령을", "취소"], "result": "개회 금지취소" },
         { "contains": ["기간을", "정한다"], "result": "개회 기일지정" },
         { "contains": ["재산", "면제"], "result": "개회 면제재산" },
         { "contains": ["별지", "면제"], "result": "개회 면제재산" },
-        { "contains": ["취하", "허가"], "result": "개회 취하결정" },
         { "contains": "공탁예정", "result": "개회 공탁통지" },
         { "contains": "의견청취서", "result": "개회 의견청취" },
         { "contains": ["경정", "경점", "겸점"], "mode": "or", "result": "개회 금지경정" }
