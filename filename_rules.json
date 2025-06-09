@@ -4,7 +4,7 @@
       "keyword": "개인회생",
       "subrules": [
         { "contains": "금지한다", "result": "개회 금지명령" },
-        { "contains": ["593조", "1항"], "mode": "or", "result": "개회 금지명령" },
+        { "contains": ["593조", "1항"], "mode": "and", "result": "개회 금지명령" },
         { "contains": ["개시결정의주문", "개시결정을하였으므로"], "mode": "or", "result": "개회 개시결정" },
         { "contains": ["주문", "개인회생절차를개시한다", "이의기간을"], "mode": "and", "result": "개회 개시결정" },
         { "contains": ["개인회생절차를개시한다", "이의기간을", "제596조"], "mode": "and", "result": "개회 개시결정" },
