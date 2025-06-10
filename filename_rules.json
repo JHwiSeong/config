@@ -31,7 +31,8 @@
         { "contains": ["파산을선고한다", "파산을폐지한다"], "mode": "and", "result": "파산 동시폐지" },
         { "contains": "파산을선고", "result": "파산 선고결정" },
         { "contains": "채권신고기간을", "result": "파산 신고기간" },
-        { "contains": ["의견청취기일및장소를", "정한다"], "mode": "and", "result": "파산 집회기일" },    
+        { "contains": ["의견청취기일및장소를", "정한다"], "mode": "and", "result": "파산 집회기일" }, 
+        { "contains": ["집회", "기일이", "지정되었으니", "출석"], "mode": "and", "result": "파산 집회기일" }, 
         { "contains": ["특별기일", "장소"], "mode": "and", "result": "파산 특별기일" },    
         { "contains": "관재인의임무종료에따른계산보고", "result": "파산 종결집회" }
       ]
