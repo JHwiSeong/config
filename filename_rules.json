@@ -17,7 +17,7 @@
         { "contains": ["기간을", "연장한다"], "mode": "and", "result": "개회 기일변경" },
         { "contains": ["집회의기일", "변경한다"], "mode": "and", "result": "개회 기일변경" },
         { "contains": ["집회기일이", "변경되었"], "mode": "and", "result": "개회 기일변경" },
-        { "contains": ["기일을다음과같이변경한다", "기일이다음과같이변경"], "mode": "or", "result": "개회 기일변경" },
+        { "contains": ["기일을다음과같이변경한다", "기일이다음과같이변경", "기일및장소를아래와같이다시지정"], "mode": "or", "result": "개회 기일변경" },
         { "contains": ["기간을", "정한다"], "mode": "and", "result": "개회 기일지정" },
         { "contains": ["재산", "면제"], "mode": "and", "result": "개회 면제재산" },
         { "contains": ["별지", "면제"], "mode": "and", "result": "개회 면제재산" },
@@ -54,3 +54,4 @@
   ],
   "default": "hwi"
 }
+
