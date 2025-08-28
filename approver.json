@@ -1,7 +1,5 @@
 {
   "settings": {
-    "site_url": "https://fms.semas.or.kr",
-    "e_litigation_url": "https://ecfs.scourt.go.kr",
     "autosave_interval": 50
   },
   "approvers": {
@@ -32,4 +30,5 @@
       }
     ]
   }
+
 }
