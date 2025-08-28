@@ -1,0 +1,35 @@
+{
+  "settings": {
+    "site_url": "https://fms.semas.or.kr",
+    "e_litigation_url": "https://ecfs.scourt.go.kr",
+    "autosave_interval": 50
+  },
+  "approvers": {
+    "team_lead": {
+      "name": "심영호",
+      "department": "부산울산금융사업팀",
+      "full_title": "팀장 (부산울산금융사업팀)"
+    },
+    "division_head": {
+      "name": "김종순",
+      "department": "부산울산지역본부",
+      "full_title": "지역본부장 (부산울산지역본부)"
+    }
+  },
+  "approval_lines": {
+    "default": [
+      "team_lead"
+    ],
+    "rules": [
+      {
+        "keywords": [
+          "금지", "폐지", "취하", "기각", "선고", "종결", "면책"
+        ],
+        "line": [
+          "team_lead",
+          "division_head"
+        ]
+      }
+    ]
+  }
+}
