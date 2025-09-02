@@ -23,6 +23,7 @@
         { "contains": ["별지", "면제"], "mode": "and", "result": "개회 면제재산" },
         { "contains": "공탁예정", "result": "개회 공탁통지" },
         { "contains": "의견청취서", "result": "개회 의견청취" },
+        { "contains": "폐지결정을취소한다", "result": "개회 폐지취소" },
         { "contains": ["경정", "경점", "겸점"], "mode": "or", "result": "개회 금지경정" }
       ]
     },
@@ -54,6 +55,7 @@
   ],
   "default": "hwi"
 }
+
 
 
 
