@@ -1,4 +1,12 @@
 {
-  "base_date": "2025-08-28",
+
+  "base_date": "2024-08-27",
+
   "target_url": "https://land.nicebizline.com/rr/RR0100M001GE.nice",
+
+  "output_basename": "부동산조사_최종결과",
+
+  "filename_format": "{업체번호}_[{구분}]{주소}_{부동산고유번호}.pdf"
+
 }
+
