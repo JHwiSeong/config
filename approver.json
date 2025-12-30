@@ -1,13 +1,13 @@
 {
   "approver_sets": {
-    "부산울산 (심영호/김종순)": {
+    "부산울산 (심영호/윤석철)": {
       "team_lead": {
         "name": "심영호",
         "department": "부산울산금융사업팀",
         "full_title": "팀장 (부산울산금융사업팀)"
       },
       "division_head": {
-        "name": "김종순",
+        "name": "윤석철",
         "department": "부산울산지역본부",
         "full_title": "지역본부장 (부산울산지역본부)"
       }
@@ -24,50 +24,50 @@
         "full_title": "지역본부장 (서울지역본부)"
       }
     },
-    "경기남부 (장호범/임준민)": {
+    "경기남부 (미지원)": {
       "team_lead": {
-        "name": "장호범",
+        "name": "미지원",
         "department": "경기남부금융사업팀",
         "full_title": "팀장 (경기남부금융사업팀)"
       },
       "division_head": {
-        "name": "임준민",
+        "name": "미지원",
         "department": "경기남부지역본부",
         "full_title": "지역본부장 (경기남부지역본부)"
       }
     },
-    "대구경북 (장해녕/김영기)": {
+    "대구경북 (미지원)": {
       "team_lead": {
-        "name": "장해녕",
+        "name": "미지원",
         "department": "대구경북금융사업팀",
         "full_title": "팀장 (대구경북금융사업팀)"
       },
       "division_head": {
-        "name": "김영기",
+        "name": "미지원",
         "department": "대구경북지역본부",
         "full_title": "지역본부장 (대구경북지역본부)"
       }
     },
-    "인천 (강성한/강성한)": {
+    "인천 (미지원)": {
       "team_lead": {
-        "name": "강성한",
+        "name": "미지원",
         "department": "인천지역본부",
         "full_title": "지역본부장 (인천지역본부)"
       },
       "division_head": {
-        "name": "강성한",
+        "name": "미지원",
         "department": "인천지역본부",
         "full_title": "지역본부장 (인천지역본부)"
       }
     },
-    "광주전남제주 (문옥철/박진희)": {
+    "광주전남제주 (미지원)": {
       "team_lead": {
-        "name": "문옥철",
+        "name": "미지원",
         "department": "광주전남제주금융사업팀",
         "full_title": "팀장 (광주전남제주금융사업팀)"
       },
       "division_head": {
-        "name": "박진희",
+        "name": "미지원",
         "department": "광주전남제주지역본부",
         "full_title": "지역본부장 (광주전남제주지역본부)"
       }
@@ -95,4 +95,5 @@
     ]
   }
 }
+
 
