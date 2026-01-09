@@ -85,17 +85,107 @@
             "group": 1
         }
     ],
-    "date_removal_patterns": [
-        "\\d{4}\\.\\d{1,2}\\.\\d{1,2}\\.?",
-        "\\d{4}년\\d{1,2}월\\d{1,2}일"
+    "text_preprocessing": {
+        "remove_characters": [
+            " ",
+            "\n",
+            "\r",
+            "\t"
+        ],
+        "replace_mappings": [
+            {
+                "from": "　",
+                "to": " ",
+                "description": "전각공백 → 반각공백"
+            },
+            {
+                "from": "０",
+                "to": "0",
+                "description": "전각숫자0"
+            },
+            {
+                "from": "１",
+                "to": "1",
+                "description": "전각숫자1"
+            },
+            {
+                "from": "２",
+                "to": "2",
+                "description": "전각숫자2"
+            },
+            {
+                "from": "３",
+                "to": "3",
+                "description": "전각숫자3"
+            },
+            {
+                "from": "４",
+                "to": "4",
+                "description": "전각숫자4"
+            },
+            {
+                "from": "５",
+                "to": "5",
+                "description": "전각숫자5"
+            },
+            {
+                "from": "６",
+                "to": "6",
+                "description": "전각숫자6"
+            },
+            {
+                "from": "７",
+                "to": "7",
+                "description": "전각숫자7"
+            },
+            {
+                "from": "８",
+                "to": "8",
+                "description": "전각숫자8"
+            },
+            {
+                "from": "９",
+                "to": "9",
+                "description": "전각숫자9"
+            },
+            {
+                "from": "－",
+                "to": "-",
+                "description": "전각하이픈"
+            },
+            {
+                "from": "—",
+                "to": "-",
+                "description": "em dash → 하이픈"
+            },
+            {
+                "from": "–",
+                "to": "-",
+                "description": "en dash → 하이픈"
+            },
+            {
+                "from": "（",
+                "to": "(",
+                "description": "전각괄호 열기"
+            },
+            {
+                "from": "）",
+                "to": ")",
+                "description": "전각괄호 닫기"
+            }
+        ],
+        "description": "OCR 텍스트 전처리 - 문자 치환 후 제거"
+    },
+    "text_removal_patterns": [
+        {
+            "pattern": "\\d{4}\\.\\d{1,2}\\.\\d{1,2}\\.?",
+            "description": "날짜 형식: 2025.11.4 또는 2025.11.04",
+            "category": "date"
+        },
+        {
+            "pattern": "\\d{4}년\\d{1,2}월\\d{1,2}일",
+            "description": "날짜 형식: 2025년11월4일",
+            "category": "date"
+        }
     ]
 }
-
-
-
-
-
-
-
-
-
