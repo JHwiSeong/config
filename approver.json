@@ -1,7 +1,31 @@
 {
+  "hpa_config": {
+    "sheet_config": {
+      "mode": "blacklist",
+      "list": [
+        "상속",
+        "기타"
+      ]
+    },
+    "automation_config": {
+      "enable_new_registration": false
+    },
+    "memo_config": {
+      "register_new": false,
+      "update_case": false,
+      "account_declaration": true,
+      "account_decl_mode": "date_prepend",
+      "templates": {
+        "new_case": "[ {timestamp} ] 신규등록 | 채무자: {name} | {bond_status}",
+        "update_case": "[ {timestamp} ] {content} | 채무자: {name} | {bond_status}",
+        "account_decl_arrow": " → 계좌신고 완료",
+        "account_decl_date": "[{date}] 계좌신고 완료"
+      }
+    }
+  },
   "approver_sets": {
     "부산울산 (심영호/윤석철)": {
-      "password": "321",
+      "access_code": "321",
       "team_lead": {
         "name": "심영호",
         "department": "부산울산금융사업팀",
@@ -11,10 +35,64 @@
         "name": "윤석철",
         "department": "부산울산지역본부",
         "full_title": "지역본부장 (부산울산지역본부)"
+      },
+      "sheet_config": {
+        "mode": "blacklist",
+        "list": []
+      },
+      "automation_config": {
+        "enable_new_registration": true
+      },
+      "memo_config": {
+        "register_new": true,
+        "update_case": true,
+        "account_declaration": true,
+        "account_decl_mode": "arrow_append",
+        "templates": {
+          "new_case": "[ {timestamp} ] 신규등록 | 채무자: {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {content} | 채무자: {name} | {bond_status}",
+          "account_decl_arrow": " → 계좌신고 완료",
+          "account_decl_date": "[{date}] 계좌신고 완료"
+        }
+      }
+    },
+    "부산울산 (테스트용)": {
+      "access_code": "321",
+      "team_lead": {
+        "name": "심영호",
+        "department": "부산울산금융사업팀",
+        "full_title": "팀장 (부산울산금융사업팀)"
+      },
+      "division_head": {
+        "name": "윤석철",
+        "department": "부산울산지역본부",
+        "full_title": "지역본부장 (부산울산지역본부)"
+      },
+      "sheet_config": {
+        "mode": "blacklist",
+        "list": [
+          "상속",
+          "기타"
+        ]
+      },
+      "automation_config": {
+        "enable_new_registration": false
+      },
+      "memo_config": {
+        "register_new": false,
+        "update_case": false,
+        "account_declaration": true,
+        "account_decl_mode": "date_prepend",
+        "templates": {
+          "new_case": "[ {timestamp} ] 신규등록 | 채무자: {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {content} | 채무자: {name} | {bond_status}",
+          "account_decl_arrow": " → 계좌신고 완료",
+          "account_decl_date": "[{date}] 계좌신고 완료"
+        }
       }
     },
     "서울 (김훈구/조용민)": {
-      "password": "본사탈출행복서울",
+      "access_code": "본사탈출행복서울",
       "team_lead": {
         "name": "김훈구",
         "department": "서울금융사업팀",
@@ -24,10 +102,32 @@
         "name": "조용민",
         "department": "서울지역본부",
         "full_title": "지역본부장 (서울지역본부)"
+      },
+      "sheet_config": {
+        "mode": "blacklist",
+        "list": [
+          "상속",
+          "기타"
+        ]
+      },
+      "automation_config": {
+        "enable_new_registration": false
+      },
+      "memo_config": {
+        "register_new": false,
+        "update_case": false,
+        "account_declaration": true,
+        "account_decl_mode": "date_prepend",
+        "templates": {
+          "new_case": "[ {timestamp} ] 신규등록 | 채무자: {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {content} | 채무자: {name} | {bond_status}",
+          "account_decl_arrow": " → 계좌신고 완료",
+          "account_decl_date": "[{date}] 계좌신고 완료"
+        }
       }
     },
     "경기남부 (미지원)": {
-      "password": "!@#",
+      "access_code": "!@#",
       "team_lead": {
         "name": "미지원",
         "department": "경기남부금융사업팀",
@@ -37,10 +137,32 @@
         "name": "미지원",
         "department": "경기남부지역본부",
         "full_title": "지역본부장 (경기남부지역본부)"
+      },
+      "sheet_config": {
+        "mode": "blacklist",
+        "list": [
+          "상속",
+          "기타"
+        ]
+      },
+      "automation_config": {
+        "enable_new_registration": false
+      },
+      "memo_config": {
+        "register_new": false,
+        "update_case": false,
+        "account_declaration": true,
+        "account_decl_mode": "date_prepend",
+        "templates": {
+          "new_case": "[ {timestamp} ] 신규등록 | 채무자: {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {content} | 채무자: {name} | {bond_status}",
+          "account_decl_arrow": " → 계좌신고 완료",
+          "account_decl_date": "[{date}] 계좌신고 완료"
+        }
       }
     },
     "대구경북 (미지원)": {
-      "password": "대구탕탕후루후루",
+      "access_code": "대구탕탕후루후루",
       "team_lead": {
         "name": "미지원",
         "department": "대구경북금융사업팀",
@@ -50,10 +172,32 @@
         "name": "미지원",
         "department": "대구경북지역본부",
         "full_title": "지역본부장 (대구경북지역본부)"
+      },
+      "sheet_config": {
+        "mode": "blacklist",
+        "list": [
+          "상속",
+          "기타"
+        ]
+      },
+      "automation_config": {
+        "enable_new_registration": false
+      },
+      "memo_config": {
+        "register_new": false,
+        "update_case": false,
+        "account_declaration": true,
+        "account_decl_mode": "date_prepend",
+        "templates": {
+          "new_case": "[ {timestamp} ] 신규등록 | 채무자: {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {content} | 채무자: {name} | {bond_status}",
+          "account_decl_arrow": " → 계좌신고 완료",
+          "account_decl_date": "[{date}] 계좌신고 완료"
+        }
       }
     },
     "인천 (미지원)": {
-      "password": "슬기로운사내생활",
+      "access_code": "슬기로운사내생활",
       "team_lead": {
         "name": "미지원",
         "department": "인천지역본부",
@@ -63,10 +207,32 @@
         "name": "미지원",
         "department": "인천지역본부",
         "full_title": "지역본부장 (인천지역본부)"
+      },
+      "sheet_config": {
+        "mode": "blacklist",
+        "list": [
+          "상속",
+          "기타"
+        ]
+      },
+      "automation_config": {
+        "enable_new_registration": false
+      },
+      "memo_config": {
+        "register_new": false,
+        "update_case": false,
+        "account_declaration": true,
+        "account_decl_mode": "date_prepend",
+        "templates": {
+          "new_case": "[ {timestamp} ] 신규등록 | 채무자: {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {content} | 채무자: {name} | {bond_status}",
+          "account_decl_arrow": " → 계좌신고 완료",
+          "account_decl_date": "[{date}] 계좌신고 완료"
+        }
       }
     },
     "광주전남제주 (미지원)": {
-      "password": "두쫀쿠킬러뉴은주",
+      "access_code": "두쫀쿠킬러뉴은주",
       "team_lead": {
         "name": "미지원",
         "department": "광주전남제주금융사업팀",
@@ -76,6 +242,28 @@
         "name": "미지원",
         "department": "광주전남제주지역본부",
         "full_title": "지역본부장 (광주전남제주지역본부)"
+      },
+      "sheet_config": {
+        "mode": "blacklist",
+        "list": [
+          "상속",
+          "기타"
+        ]
+      },
+      "automation_config": {
+        "enable_new_registration": false
+      },
+      "memo_config": {
+        "register_new": false,
+        "update_case": false,
+        "account_declaration": true,
+        "account_decl_mode": "date_prepend",
+        "templates": {
+          "new_case": "[ {timestamp} ] 신규등록 | 채무자: {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {content} | 채무자: {name} | {bond_status}",
+          "account_decl_arrow": " → 계좌신고 완료",
+          "account_decl_date": "[{date}] 계좌신고 완료"
+        }
       }
     },
     "대전세종충남 (박지원/박경모)": {
@@ -89,22 +277,51 @@
         "name": "박경모",
         "department": "대전세종충남지역본부",
         "full_title": "지역본부장 (대전세종충남지역본부)"
+      },
+      "sheet_config": {
+        "mode": "blacklist",
+        "list": [
+          "상속",
+          "기타"
+        ]
+      },
+      "automation_config": {
+        "enable_new_registration": false
+      },
+      "memo_config": {
+        "register_new": false,
+        "update_case": false,
+        "account_declaration": true,
+        "account_decl_mode": "date_prepend",
+        "templates": {
+          "new_case": "[ {timestamp} ] 신규등록 | 채무자: {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {content} | 채무자: {name} | {bond_status}",
+          "account_decl_arrow": " → 계좌신고 완료",
+          "account_decl_date": "[{date}] 계좌신고 완료"
+        }
       }
     }
   },
   "approval_rules": {
-    "default": [ "team_lead" ],
+    "default": [
+      "team_lead"
+    ],
     "rules": [
       {
-        "keywords": [ "금지", "폐지", "취하", "기각", "선고", "종결", "면책" ],
-        "line": [ "team_lead", "division_head" ]
+        "keywords": [
+          "금지",
+          "폐지",
+          "취하",
+          "기각",
+          "선고",
+          "종결",
+          "면책"
+        ],
+        "line": [
+          "team_lead",
+          "division_head"
+        ]
       }
     ]
   }
 }
-
-
-
-
-
-
