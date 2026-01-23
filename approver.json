@@ -1,7 +1,7 @@
 {
   "approver_sets": {
     "부산울산 (심영호/윤석철)": {
-      "password": "123",
+      "password": "321",
       "team_lead": {
         "name": "심영호",
         "department": "부산울산금융사업팀",
@@ -14,7 +14,7 @@
       }
     },
     "서울 (김훈구/조용민)": {
-      "password": "SEOH",
+      "password": "!@#",
       "team_lead": {
         "name": "김훈구",
         "department": "서울금융사업팀",
@@ -27,7 +27,7 @@
       }
     },
     "경기남부 (미지원)": {
-      "password": "123",
+      "password": "!@#",
       "team_lead": {
         "name": "미지원",
         "department": "경기남부금융사업팀",
@@ -40,7 +40,7 @@
       }
     },
     "대구경북 (미지원)": {
-      "password": "123",
+      "password": "대구탕탕후루후루",
       "team_lead": {
         "name": "미지원",
         "department": "대구경북금융사업팀",
@@ -53,7 +53,7 @@
       }
     },
     "인천 (미지원)": {
-      "password": "123",
+      "password": "!@#",
       "team_lead": {
         "name": "미지원",
         "department": "인천지역본부",
@@ -66,7 +66,7 @@
       }
     },
     "광주전남제주 (미지원)": {
-      "password": "1234",
+      "password": "두쫀쿠킬러뉴은주",
       "team_lead": {
         "name": "미지원",
         "department": "광주전남제주금융사업팀",
@@ -79,11 +79,11 @@
       }
     },
     "대전세종충남 (박지원/박경모)": {
-      "password": "DSJO",
+      "password": "철인투종원",
       "team_lead": {
-        "name": "박지원",
-        "department": "대전세종충남금융사업팀",
-        "full_title": "팀장 (대전세종충남금융사업팀)"
+        "name": "정선희",
+        "department": "대전세종충남성장지원팀",
+        "full_title": "팀장 (대전세종충남성장지원팀)"
       },
       "division_head": {
         "name": "박경모",
@@ -102,6 +102,7 @@
     ]
   }
 }
+
 
 
 
