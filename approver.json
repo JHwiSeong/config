@@ -16,8 +16,6 @@
       "account_declaration": true,
       "account_decl_mode": "date_prepend",
       "templates": {
-        "new_case": "[ {timestamp} ] 신규등록 | 채무자: {name} | {bond_status}",
-        "update_case": "[ {timestamp} ] {content} | 채무자: {name} | {bond_status}",
         "account_decl_arrow": " → 계좌신고 완료",
         "account_decl_date": "[{date}] 계좌신고 완료"
       }
@@ -49,8 +47,6 @@
         "account_declaration": true,
         "account_decl_mode": "arrow_append",
         "templates": {
-          "new_case": "[ {timestamp} ] 신규등록 | 채무자: {name} | {bond_status}",
-          "update_case": "[ {timestamp} ] {content} | 채무자: {name} | {bond_status}",
           "account_decl_arrow": " → 계좌신고 완료",
           "account_decl_date": "[{date}] 계좌신고 완료"
         }
@@ -84,8 +80,6 @@
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
         "templates": {
-          "new_case": "[ {timestamp} ] 신규등록 | 채무자: {name} | {bond_status}",
-          "update_case": "[ {timestamp} ] {content} | 채무자: {name} | {bond_status}",
           "account_decl_arrow": " → 계좌신고 완료",
           "account_decl_date": "[{date}] 계좌신고 완료"
         }
@@ -119,8 +113,6 @@
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
         "templates": {
-          "new_case": "[ {timestamp} ] 신규등록 | 채무자: {name} | {bond_status}",
-          "update_case": "[ {timestamp} ] {content} | 채무자: {name} | {bond_status}",
           "account_decl_arrow": " → 계좌신고 완료",
           "account_decl_date": "[{date}] 계좌신고 완료"
         }
@@ -154,8 +146,6 @@
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
         "templates": {
-          "new_case": "[ {timestamp} ] 신규등록 | 채무자: {name} | {bond_status}",
-          "update_case": "[ {timestamp} ] {content} | 채무자: {name} | {bond_status}",
           "account_decl_arrow": " → 계좌신고 완료",
           "account_decl_date": "[{date}] 계좌신고 완료"
         }
@@ -189,8 +179,6 @@
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
         "templates": {
-          "new_case": "[ {timestamp} ] 신규등록 | 채무자: {name} | {bond_status}",
-          "update_case": "[ {timestamp} ] {content} | 채무자: {name} | {bond_status}",
           "account_decl_arrow": " → 계좌신고 완료",
           "account_decl_date": "[{date}] 계좌신고 완료"
         }
@@ -224,8 +212,6 @@
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
         "templates": {
-          "new_case": "[ {timestamp} ] 신규등록 | 채무자: {name} | {bond_status}",
-          "update_case": "[ {timestamp} ] {content} | 채무자: {name} | {bond_status}",
           "account_decl_arrow": " → 계좌신고 완료",
           "account_decl_date": "[{date}] 계좌신고 완료"
         }
@@ -259,15 +245,13 @@
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
         "templates": {
-          "new_case": "[ {timestamp} ] 신규등록 | 채무자: {name} | {bond_status}",
-          "update_case": "[ {timestamp} ] {content} | 채무자: {name} | {bond_status}",
           "account_decl_arrow": " → 계좌신고 완료",
           "account_decl_date": "[{date}] 계좌신고 완료"
         }
       }
     },
     "대전세종충남 (박지원/박경모)": {
-      "password": "철인투종원",
+      "access_code": "철인투종원",
       "team_lead": {
         "name": "정선희",
         "department": "대전세종충남성장지원팀",
@@ -294,8 +278,6 @@
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
         "templates": {
-          "new_case": "[ {timestamp} ] 신규등록 | 채무자: {name} | {bond_status}",
-          "update_case": "[ {timestamp} ] {content} | 채무자: {name} | {bond_status}",
           "account_decl_arrow": " → 계좌신고 완료",
           "account_decl_date": "[{date}] 계좌신고 완료"
         }
