@@ -46,13 +46,13 @@
     ],
     "silmyung_patterns": [
         {
-            "pattern": "채무자.{0,50}(\\d{6})-(\\d{7})",
+            "상속재산.{0,1}(\\d{6})-(\\d{7})",
             "group": [
                 1,
                 2
             ],
             "priority": 100,
-            "description": "채무자의 실명확인번호 (상속파산 사건 대응)"
+            "description": "상파 실번"
         },
         {
             "pattern": "(\\d{6})-(\\d{7})",
@@ -61,7 +61,7 @@
                 2
             ],
             "priority": 50,
-            "description": "일반 실명확인번호 (fallback)"
+            "description": "실번"
         }
     ],
     "case_number_patterns": [
@@ -212,6 +212,7 @@
         }
     ]
 }
+
 
 
 
