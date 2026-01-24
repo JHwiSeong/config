@@ -9,12 +9,12 @@
         {
             "pattern": "(채무자|신청인)([가-힣]{2,4})\\d{6}-\\d{7}",
             "group": 2,
-            "priority": 70
+            "priority": 90
         },
         {
             "pattern": "(채무자|신청인)([가-힣]{2,4})\\(",
             "group": 2,
-            "priority": 50
+            "priority": 85
         },
         {
             "pattern": "([가-힣]{2,4})\\(\\d{6}-\\d{7}\\)",
@@ -24,7 +24,7 @@
         {
             "pattern": "(채무자|신청인)\\s*([가-힣]{2,4})",
             "group": 2,
-            "priority": 30
+            "priority": 70
         }
     ],
     "invalid_names": [
@@ -222,6 +222,7 @@
         }
     ]
 }
+
 
 
 
