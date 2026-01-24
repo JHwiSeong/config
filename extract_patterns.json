@@ -1,20 +1,30 @@
 {
     "name_patterns": [
         {
+            "pattern": "망([가-힣]{2,4})의상속재산",
+            "group": 1,
+            "priority": 100,
+            "description": "상속파산 - 망인 이름 (최우선)"
+        },
+        {
             "pattern": "(채무자|신청인)([가-힣]{2,4})\\d{6}-\\d{7}",
-            "group": 2
+            "group": 2,
+            "priority": 70
         },
         {
             "pattern": "(채무자|신청인)([가-힣]{2,4})\\(",
-            "group": 2
+            "group": 2,
+            "priority": 50
         },
         {
             "pattern": "([가-힣]{2,4})\\(\\d{6}-\\d{7}\\)",
-            "group": 1
+            "group": 1,
+            "priority": 60
         },
         {
             "pattern": "(채무자|신청인)\\s*([가-힣]{2,4})",
-            "group": 2
+            "group": 2,
+            "priority": 30
         }
     ],
     "invalid_names": [
@@ -212,6 +222,7 @@
         }
     ]
 }
+
 
 
 
