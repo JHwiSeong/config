@@ -10,16 +10,7 @@
         "medium_sleep_max": 60.0,
         "description": "휴먼모드 설정. 기준은 초단위. base_sleep + variable_sleep(0~max) 범위에서 랜덤 대기"
     },
-    "user_agents": [
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.7451.0 Safari/537.36",
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7412.1 Safari/537.36",
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7381.2 Safari/537.36",
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.7334.0 Safari/537.36",
-        "Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.7451.0 Safari/537.36",
-        "Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7412.1 Safari/537.36",
-        "Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7381.2 Safari/537.36",
-        "Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.7334.0 Safari/537.36"
-    ],
+    "user_agents": [],
     "site_selectors": {
         "base_url": "https://ssgo.scourt.go.kr/ssgo/index.on?cortId=www",
         "court_select": "mf_ssgoTopMainTab_contents_content1_body_sbx_cortCd",
@@ -31,5 +22,24 @@
         "input_mode_checkbox": "mf_ssgoTopMainTab_contents_content1_body_cbx_chkSanoInputMode_input_0",
         "detail_body": "mf_ssgoTopMainTab_contents_content1_body_wfSsgoDetail_ssgoCsDetailTab_contents_ssgoTab1_body",
         "progress_tab": "mf_ssgoTopMainTab_contents_content1_body_wfSsgoDetail_ssgoCsDetailTab_tab_ssgoTab2_tabHTML"
+    },
+    "header_mapping": {
+        "법원": [
+            "법원",
+            "관할법원",
+            "법원명"
+        ],
+        "사건번호": [
+            "사건번호",
+            "사건"
+        ],
+        "이름": [
+            "이름",
+            "성명"
+        ],
+        "신청자번호": [
+            "신청자번호",
+            "고객번호"
+        ]
     }
 }
