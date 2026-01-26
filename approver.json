@@ -23,7 +23,7 @@
   },
   "approver_sets": {
     "부산울산 (심영호/윤석철)": {
-      "access_code": "321",
+      "access_code": "5253",
       "team_lead": {
         "name": "심영호",
         "department": "부산울산금융사업팀",
@@ -52,8 +52,8 @@
         }
       }
     },
-    "부산울산 (테스트용)": {
-      "access_code": "321",
+    "부산울산 (개발용)": {
+      "access_code": "5253",
       "team_lead": {
         "name": "심영호",
         "department": "부산울산금융사업팀",
@@ -96,6 +96,39 @@
         "name": "조용민",
         "department": "서울지역본부",
         "full_title": "지역본부장 (서울지역본부)"
+      },
+      "sheet_config": {
+        "mode": "blacklist",
+        "list": [
+          "상속",
+          "기타"
+        ]
+      },
+      "automation_config": {
+        "enable_new_registration": false
+      },
+      "memo_config": {
+        "register_new": false,
+        "update_case": false,
+        "account_declaration": true,
+        "account_decl_mode": "date_prepend",
+        "templates": {
+          "account_decl_arrow": " → 계좌신고 완료",
+          "account_decl_date": "[{date}] 계좌신고 완료"
+        }
+      }
+    },
+    "대전세종충남 (박지원/박경모)": {
+      "access_code": "철인투종원",
+      "team_lead": {
+        "name": "정선희",
+        "department": "대전세종충남성장지원팀",
+        "full_title": "팀장 (대전세종충남성장지원팀)"
+      },
+      "division_head": {
+        "name": "박경모",
+        "department": "대전세종충남지역본부",
+        "full_title": "지역본부장 (대전세종충남지역본부)"
       },
       "sheet_config": {
         "mode": "blacklist",
@@ -250,17 +283,149 @@
         }
       }
     },
-    "대전세종충남 (박지원/박경모)": {
-      "access_code": "철인투종원",
+    "강원 (미지원)": {
+      "access_code": "!@#",
       "team_lead": {
-        "name": "정선희",
-        "department": "대전세종충남성장지원팀",
-        "full_title": "팀장 (대전세종충남성장지원팀)"
+        "name": "미지원",
+        "department": "강원금융사업팀",
+        "full_title": "팀장 (강원금융사업팀)"
       },
       "division_head": {
-        "name": "박경모",
-        "department": "대전세종충남지역본부",
-        "full_title": "지역본부장 (대전세종충남지역본부)"
+        "name": "미지원",
+        "department": "강원지역본부",
+        "full_title": "지역본부장 (강원지역본부)"
+      },
+      "sheet_config": {
+        "mode": "blacklist",
+        "list": [
+          "상속",
+          "기타"
+        ]
+      },
+      "automation_config": {
+        "enable_new_registration": false
+      },
+      "memo_config": {
+        "register_new": false,
+        "update_case": false,
+        "account_declaration": true,
+        "account_decl_mode": "date_prepend",
+        "templates": {
+          "account_decl_arrow": " → 계좌신고 완료",
+          "account_decl_date": "[{date}] 계좌신고 완료"
+        }
+      }
+    },
+    "경기북부 (미지원)": {
+      "access_code": "!@#",
+      "team_lead": {
+        "name": "미지원",
+        "department": "경기북부금융사업팀",
+        "full_title": "팀장 (경기북부금융사업팀)"
+      },
+      "division_head": {
+        "name": "미지원",
+        "department": "경기북부지역본부",
+        "full_title": "지역본부장 (경기북부지역본부)"
+      },
+      "sheet_config": {
+        "mode": "blacklist",
+        "list": [
+          "상속",
+          "기타"
+        ]
+      },
+      "automation_config": {
+        "enable_new_registration": false
+      },
+      "memo_config": {
+        "register_new": false,
+        "update_case": false,
+        "account_declaration": true,
+        "account_decl_mode": "date_prepend",
+        "templates": {
+          "account_decl_arrow": " → 계좌신고 완료",
+          "account_decl_date": "[{date}] 계좌신고 완료"
+        }
+      }
+    },
+    "충북 (미지원)": {
+      "access_code": "!@#",
+      "team_lead": {
+        "name": "미지원",
+        "department": "충북금융사업팀",
+        "full_title": "팀장 (충북금융사업팀)"
+      },
+      "division_head": {
+        "name": "미지원",
+        "department": "충북지역본부",
+        "full_title": "지역본부장 (충북지역본부)"
+      },
+      "sheet_config": {
+        "mode": "blacklist",
+        "list": [
+          "상속",
+          "기타"
+        ]
+      },
+      "automation_config": {
+        "enable_new_registration": false
+      },
+      "memo_config": {
+        "register_new": false,
+        "update_case": false,
+        "account_declaration": true,
+        "account_decl_mode": "date_prepend",
+        "templates": {
+          "account_decl_arrow": " → 계좌신고 완료",
+          "account_decl_date": "[{date}] 계좌신고 완료"
+        }
+      }
+    },
+    "전북 (미지원)": {
+      "access_code": "!@#",
+      "team_lead": {
+        "name": "미지원",
+        "department": "전북금융사업팀",
+        "full_title": "팀장 (전북금융사업팀)"
+      },
+      "division_head": {
+        "name": "미지원",
+        "department": "전북지역본부",
+        "full_title": "지역본부장 (전북지역본부)"
+      },
+      "sheet_config": {
+        "mode": "blacklist",
+        "list": [
+          "상속",
+          "기타"
+        ]
+      },
+      "automation_config": {
+        "enable_new_registration": false
+      },
+      "memo_config": {
+        "register_new": false,
+        "update_case": false,
+        "account_declaration": true,
+        "account_decl_mode": "date_prepend",
+        "templates": {
+          "account_decl_arrow": " → 계좌신고 완료",
+          "account_decl_date": "[{date}] 계좌신고 완료"
+        }
+      }
+    },
+    "경남 (미지원)": {
+      "access_code": "!@#",
+      "team_lead": {
+        "name": "미지원",
+        "department": "경남금융사업팀",
+        "full_title": "팀장 (경남금융사업팀)"
+      },
+      "division_head": {
+        "name": "미지원",
+        "department": "경남지역본부",
+        "full_title": "지역본부장 (경남지역본부)"
       },
       "sheet_config": {
         "mode": "blacklist",
