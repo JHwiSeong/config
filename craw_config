@@ -1,0 +1,35 @@
+{
+    "human_mode": {
+        "base_sleep": 1.0,
+        "variable_sleep": 1.5,
+        "long_sleep_probability": 0.0025,
+        "long_sleep_min": 120.0,
+        "long_sleep_max": 240.0,
+        "medium_sleep_probability": 0.005,
+        "medium_sleep_min": 10.0,
+        "medium_sleep_max": 60.0,
+        "description": "사람처럼 행동하기 위한 대기 시간 설정. base_sleep + variable_sleep(0~max) 범위에서 랜덤 대기"
+    },
+    "user_agents": [
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.7451.0 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7412.1 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7381.2 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.7334.0 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.7451.0 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.7412.1 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7381.2 Safari/537.36",
+        "Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.7334.0 Safari/537.36"
+    ],
+    "site_selectors": {
+        "base_url": "https://ssgo.scourt.go.kr/ssgo/index.on?cortId=www",
+        "court_select": "mf_ssgoTopMainTab_contents_content1_body_sbx_cortCd",
+        "case_number_input": "mf_ssgoTopMainTab_contents_content1_body_ibx_fullCsNo",
+        "name_input": "mf_ssgoTopMainTab_contents_content1_body_ibx_btprNm",
+        "captcha_img": "mf_ssgoTopMainTab_contents_content1_body_img_captcha",
+        "captcha_answer": "mf_ssgoTopMainTab_contents_content1_body_ibx_answer",
+        "search_button": "mf_ssgoTopMainTab_contents_content1_body_btn_srchCs",
+        "input_mode_checkbox": "mf_ssgoTopMainTab_contents_content1_body_cbx_chkSanoInputMode_input_0",
+        "detail_body": "mf_ssgoTopMainTab_contents_content1_body_wfSsgoDetail_ssgoCsDetailTab_contents_ssgoTab1_body",
+        "progress_tab": "mf_ssgoTopMainTab_contents_content1_body_wfSsgoDetail_ssgoCsDetailTab_tab_ssgoTab2_tabHTML"
+    }
+}
