@@ -8,7 +8,7 @@
         "medium_sleep_probability": 0.005,
         "medium_sleep_min": 10.0,
         "medium_sleep_max": 60.0,
-        "description": "사람처럼 행동하기 위한 대기 시간 설정. base_sleep + variable_sleep(0~max) 범위에서 랜덤 대기"
+        "description": "휴먼모드 설정. 기준은 초단위. base_sleep + variable_sleep(0~max) 범위에서 랜덤 대기"
     },
     "user_agents": [
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.7451.0 Safari/537.36",
