@@ -1,12 +1,12 @@
 {
     "human_mode": {
-        "base_sleep": 1.0,
-        "variable_sleep": 1.5,
-        "long_sleep_probability": 0.0025,
+        "base_sleep": 1.5,
+        "variable_sleep": 2.0,
+        "long_sleep_probability": 0.004,
         "long_sleep_min": 120.0,
         "long_sleep_max": 240.0,
-        "medium_sleep_probability": 0.005,
-        "medium_sleep_min": 10.0,
+        "medium_sleep_probability": 0.008,
+        "medium_sleep_min": 30.0,
         "medium_sleep_max": 60.0,
         "description": "휴먼모드 설정. 기준은 초단위. base_sleep + variable_sleep(0~max) 범위에서 랜덤 대기"
     },
