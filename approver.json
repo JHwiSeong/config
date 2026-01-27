@@ -339,15 +339,15 @@
         }
       }
     },
-    "경기북부 (미지원)": {
-      "access_code": "!@#",
+    "경기북부 (황순원/김상목)": {
+      "access_code": "경기북부성욱장",
       "team_lead": {
-        "name": "미지원",
+        "name": "황순원",
         "department": "경기북부금융사업팀",
         "full_title": "팀장 (경기북부금융사업팀)"
       },
       "division_head": {
-        "name": "미지원",
+        "name": "김상목",
         "department": "경기북부지역본부",
         "full_title": "지역본부장 (경기북부지역본부)"
       },
@@ -444,15 +444,15 @@
         }
       }
     },
-    "경남 (미지원)": {
-      "access_code": "!@#",
+    "경남 (김영민/정희)": {
+      "access_code": "실버솔",
       "team_lead": {
-        "name": "미지원",
+        "name": "김영민",
         "department": "경남금융사업팀",
         "full_title": "팀장 (경남금융사업팀)"
       },
       "division_head": {
-        "name": "미지원",
+        "name": "정희",
         "department": "경남지역본부",
         "full_title": "지역본부장 (경남지역본부)"
       },
@@ -503,3 +503,4 @@
     ]
   }
 }
+
