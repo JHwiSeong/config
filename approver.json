@@ -1,6 +1,7 @@
 {
   "hpa_config": {
     "sheet_config": {
+      "description": "엑셀 시트 처리 모드 설정 (mode='blacklist': list에 있는 시트 제외 / mode='whitelist': list에 있는 시트만 처리)",
       "mode": "blacklist",
       "list": [
         "상속",
@@ -8,9 +9,13 @@
       ]
     },
     "automation_config": {
-      "enable_new_registration": false
+      "description": "자동화 기능 제어 [enable_new_registration: true=감독형 신규사건 등록 허용 / enable_auto_continue: true=감독형(자동연속) 모드 사용 허용 / verify_name_existing_case: true=기존사건 처리 시 이름 일치 여부 검증]",
+      "enable_new_registration": false,
+      "enable_auto_continue": false,
+      "verify_name_existing_case": true
     },
     "memo_config": {
+      "description": "FMS 메모 작성 설정 [register_new: true=신규등록 시 메모 작성 / update_case: true=기존사건 수정 시 메모 작성 / account_declaration: true=계좌신고 완료 시 메모 작성]",
       "register_new": false,
       "update_case": false,
       "account_declaration": true,
@@ -39,7 +44,9 @@
         "list": []
       },
       "automation_config": {
-        "enable_new_registration": true
+        "enable_new_registration": true,
+        "enable_auto_continue": true,
+        "verify_name_existing_case": false
       },
       "memo_config": {
         "register_new": true,
@@ -72,7 +79,9 @@
         ]
       },
       "automation_config": {
-        "enable_new_registration": false
+        "enable_new_registration": false,
+        "enable_auto_continue": true,
+        "verify_name_existing_case": true
       },
       "memo_config": {
         "register_new": false,
@@ -105,7 +114,9 @@
         ]
       },
       "automation_config": {
-        "enable_new_registration": false
+        "enable_new_registration": false,
+        "enable_auto_continue": false,
+        "verify_name_existing_case": true
       },
       "memo_config": {
         "register_new": false,
@@ -138,7 +149,9 @@
         ]
       },
       "automation_config": {
-        "enable_new_registration": false
+        "enable_new_registration": false,
+        "enable_auto_continue": true,
+        "verify_name_existing_case": true
       },
       "memo_config": {
         "register_new": false,
@@ -171,7 +184,9 @@
         ]
       },
       "automation_config": {
-        "enable_new_registration": false
+        "enable_new_registration": false,
+        "enable_auto_continue": false,
+        "verify_name_existing_case": true
       },
       "memo_config": {
         "register_new": false,
@@ -204,7 +219,9 @@
         ]
       },
       "automation_config": {
-        "enable_new_registration": false
+        "enable_new_registration": false,
+        "enable_auto_continue": true,
+        "verify_name_existing_case": true
       },
       "memo_config": {
         "register_new": false,
@@ -237,7 +254,9 @@
         ]
       },
       "automation_config": {
-        "enable_new_registration": false
+        "enable_new_registration": false,
+        "enable_auto_continue": false,
+        "verify_name_existing_case": true
       },
       "memo_config": {
         "register_new": false,
@@ -270,7 +289,9 @@
         ]
       },
       "automation_config": {
-        "enable_new_registration": false
+        "enable_new_registration": false,
+        "enable_auto_continue": true,
+        "verify_name_existing_case": true
       },
       "memo_config": {
         "register_new": false,
@@ -303,7 +324,9 @@
         ]
       },
       "automation_config": {
-        "enable_new_registration": false
+        "enable_new_registration": false,
+        "enable_auto_continue": false,
+        "verify_name_existing_case": true
       },
       "memo_config": {
         "register_new": false,
@@ -336,7 +359,9 @@
         ]
       },
       "automation_config": {
-        "enable_new_registration": false
+        "enable_new_registration": false,
+        "enable_auto_continue": false,
+        "verify_name_existing_case": true
       },
       "memo_config": {
         "register_new": false,
@@ -369,7 +394,9 @@
         ]
       },
       "automation_config": {
-        "enable_new_registration": false
+        "enable_new_registration": false,
+        "enable_auto_continue": false,
+        "verify_name_existing_case": true
       },
       "memo_config": {
         "register_new": false,
@@ -402,7 +429,9 @@
         ]
       },
       "automation_config": {
-        "enable_new_registration": false
+        "enable_new_registration": false,
+        "enable_auto_continue": false,
+        "verify_name_existing_case": true
       },
       "memo_config": {
         "register_new": false,
@@ -435,7 +464,9 @@
         ]
       },
       "automation_config": {
-        "enable_new_registration": false
+        "enable_new_registration": false,
+        "enable_auto_continue": false,
+        "verify_name_existing_case": true
       },
       "memo_config": {
         "register_new": false,
