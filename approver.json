@@ -90,7 +90,7 @@
         "account_decl_mode": "date_prepend",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "[{date}] 계좌신고 완료"
+          "account_decl_date": "계좌신고 완"
         }
       }
     },
@@ -503,6 +503,7 @@
     ]
   }
 }
+
 
 
 
