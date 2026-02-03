@@ -164,15 +164,15 @@
         }
       }
     },
-    "경기남부 (미지원)": {
+    "경기남부 (이고운/임준민)": {
       "access_code": "!@#",
       "team_lead": {
-        "name": "미지원",
+        "name": "이고운",
         "department": "경기남부금융사업팀",
         "full_title": "팀장 (경기남부금융사업팀)"
       },
       "division_head": {
-        "name": "미지원",
+        "name": "임준민",
         "department": "경기남부지역본부",
         "full_title": "지역본부장 (경기남부지역본부)"
       },
@@ -195,7 +195,7 @@
         "account_decl_mode": "date_prepend",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "[{date}] 계좌신고 완료"
+          "account_decl_date": "계좌신고 완료"
         }
       }
     },
@@ -503,6 +503,7 @@
     ]
   }
 }
+
 
 
 
