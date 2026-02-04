@@ -10,9 +10,15 @@
 
   "target_url": "https://land.nicebizline.com/rr/RR0100M001GE.nice",
 
-  "output_basename": "부동산조사_최종결과",
+  "output_basename": "등기발급결과",
 
-  "filename_format": "{업체번호}_{업체명}[{등기_구분}]{등기_주소}_{등기_고유번호}.pdf"
-
+  "filename_format": "{업체번호}_[{등기_구분}]{등기_주소}_{등기_고유번호}.pdf",
+  
+  "address_headers": [
+    "재산조사물건주소",
+    "주소",
+    "검색주소",
+    "사업장주소"
+  ]
 }
 
