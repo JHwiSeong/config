@@ -4,7 +4,7 @@
 
   "output_basename": "부동산조사_최종결과",
 
-  "filename_format": "{업체번호}_[{등기_구분}]{등기_주소}_({등기_발급일자}기준).pdf",
+  "filename_format": "{업체번호}_[{등기_구분}]{등기_주소}_({등기_발급일자}발급).pdf",
 
   "address_headers": [
     "재산조사물건주소",
