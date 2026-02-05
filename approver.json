@@ -115,7 +115,7 @@
       },
       "automation_config": {
         "enable_new_registration": false,
-        "enable_auto_continue": true,
+        "enable_auto_continue": false,
         "verify_name_existing_case": true
       },
       "memo_config": {
@@ -503,6 +503,7 @@
     ]
   }
 }
+
 
 
 
