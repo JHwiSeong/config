@@ -94,7 +94,10 @@
         "update_case": true,
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
+        "date_format": "'%y.%m.%d. / %H:%M",
         "templates": {
+          "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}",
           "account_decl_arrow": " → 계좌신고 완료",
           "account_decl_date": "계좌신고 완"
         }
@@ -131,8 +134,11 @@
         "account_decl_mode": "date_prepend",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "[{date}] 계좌신고 완료"
-        }
+          "account_decl_date": "[{date}] 계좌신고 완료",
+          "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
+        },
+        "date_format": "'%y.%m.%d. / %H:%M"
       }
     },
     "대전세종충남 (박지원/박경모)": {
@@ -166,8 +172,11 @@
         "account_decl_mode": "date_prepend",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "계좌신고 완."
-        }
+          "account_decl_date": "계좌신고 완.",
+          "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
+        },
+        "date_format": "'%y.%m.%d. / %H:%M"
       }
     },
     "경기남부 (미지원)": {
@@ -201,8 +210,11 @@
         "account_decl_mode": "date_prepend",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "계좌신고 완료"
-        }
+          "account_decl_date": "계좌신고 완료",
+          "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
+        },
+        "date_format": "'%y.%m.%d. / %H:%M"
       }
     },
     "대구경북 (장해녕/김현석)": {
@@ -236,8 +248,11 @@
         "account_decl_mode": "date_prepend",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "계좌신고 완료"
-        }
+          "account_decl_date": "계좌신고 완료",
+          "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
+        },
+        "date_format": "'%y.%m.%d. / %H:%M"
       }
     },
     "인천 (전성호/권혁찬)": {
@@ -271,8 +286,11 @@
         "account_decl_mode": "date_prepend",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "계좌 신고 완료"
-        }
+          "account_decl_date": "계좌 신고 완료",
+          "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
+        },
+        "date_format": "'%y.%m.%d. / %H:%M"
       }
     },
     "광주전남제주 (강지운/박진희)": {
@@ -306,8 +324,11 @@
         "account_decl_mode": "date_prepend",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "계좌 신고 완료"
-        }
+          "account_decl_date": "계좌 신고 완료",
+          "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
+        },
+        "date_format": "'%y.%m.%d. / %H:%M"
       }
     },
     "강원 (미지원)": {
@@ -341,8 +362,11 @@
         "account_decl_mode": "date_prepend",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "[{date}] 계좌신고 완료"
-        }
+          "account_decl_date": "[{date}] 계좌신고 완료",
+          "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
+        },
+        "date_format": "'%y.%m.%d. / %H:%M"
       }
     },
     "경기북부 (황순원/김상목)": {
@@ -376,8 +400,11 @@
         "account_decl_mode": "date_prepend",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "[{date}] 계좌신고 완료"
-        }
+          "account_decl_date": "[{date}] 계좌신고 완료",
+          "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
+        },
+        "date_format": "'%y.%m.%d. / %H:%M"
       }
     },
     "충북 (미지원)": {
@@ -411,8 +438,11 @@
         "account_decl_mode": "date_prepend",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "[{date}] 계좌신고 완료"
-        }
+          "account_decl_date": "[{date}] 계좌신고 완료",
+          "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
+        },
+        "date_format": "'%y.%m.%d. / %H:%M"
       }
     },
     "전북 (미지원)": {
@@ -446,8 +476,11 @@
         "account_decl_mode": "date_prepend",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "[{date}] 계좌신고 완료"
-        }
+          "account_decl_date": "[{date}] 계좌신고 완료",
+          "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
+        },
+        "date_format": "'%y.%m.%d. / %H:%M"
       }
     },
     "경남 (김영민/정희)": {
@@ -481,8 +514,11 @@
         "account_decl_mode": "date_prepend",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "[{date}] 계좌신고 완료"
-        }
+          "account_decl_date": "[{date}] 계좌신고 완료",
+          "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
+        },
+        "date_format": "'%y.%m.%d. / %H:%M"
       }
     }
   },
@@ -509,4 +545,3 @@
     ]
   }
 }
-
