@@ -56,7 +56,7 @@
         "update_case": true,
         "account_declaration": true,
         "account_decl_mode": "arrow_append",
-        "date_format": "%y-%m-%d / %H:%M",
+        "date_format": "'%y.%m.%d. / %H:%M",
         "templates": {
           "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
           "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}",
@@ -91,7 +91,7 @@
       },
       "memo_config": {
         "register_new": false,
-        "update_case": false,
+        "update_case": true,
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
         "templates": {
@@ -509,3 +509,4 @@
     ]
   }
 }
+
