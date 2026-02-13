@@ -20,9 +20,12 @@
       "update_case": false,
       "account_declaration": true,
       "account_decl_mode": "date_prepend",
+      "date_format": "'%y.%m.%d. / %H:%M",
       "templates": {
+        "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
+        "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}",
         "account_decl_arrow": " → 계좌신고 완료",
-        "account_decl_date": "[{date}] 계좌신고 완료"
+        "account_decl_date": "[{timestamp}] 계좌신고 완료"
       }
     }
   },
@@ -53,9 +56,12 @@
         "update_case": true,
         "account_declaration": true,
         "account_decl_mode": "arrow_append",
+        "date_format": "%y-%m-%d / %H:%M",
         "templates": {
+          "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}",
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "[{date}] 계좌신고 완료"
+          "account_decl_date": "[{timestamp}] 계좌신고 완료"
         }
       }
     },
@@ -503,18 +509,3 @@
     ]
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
