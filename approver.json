@@ -59,7 +59,7 @@
         "date_format": "'%y.%m.%d. / %H:%M",
         "templates": {
           "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
-          "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {process_content} | {bond_status}",
           "account_decl_arrow": " → 계좌신고 완료",
           "account_decl_date": "[{timestamp}] 계좌신고 완료"
         }
@@ -545,3 +545,4 @@
     ]
   }
 }
+
