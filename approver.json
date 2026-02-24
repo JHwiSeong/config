@@ -90,14 +90,14 @@
         "verify_name_existing_case": true
       },
       "memo_config": {
-        "register_new": false,
+        "register_new": true,
         "update_case": true,
         "account_declaration": true,
-        "account_decl_mode": "date_prepend",
+        "account_decl_mode": "arrow_append",
         "date_format": "'%y.%m.%d. / %H:%M",
         "templates": {
           "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
-          "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}",
+          "update_case": "[ {timestamp} ] {process_content} | {bond_status}",
           "account_decl_arrow": " → 계좌신고 완료",
           "account_decl_date": "계좌신고 완"
         }
@@ -545,4 +545,5 @@
     ]
   }
 }
+
 
