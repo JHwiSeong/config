@@ -514,11 +514,11 @@
         "account_decl_mode": "date_prepend",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "[{date}] 계좌신고 완료",
+          "account_decl_date": "{timestamp} 계좌신고서 제출완료",
           "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
           "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
         },
-        "date_format": "'%y.%m.%d. / %H:%M"
+        "date_format": "'%y.%m.%d."
       }
     }
   },
@@ -545,5 +545,6 @@
     ]
   }
 }
+
 
 
