@@ -21,8 +21,26 @@
         "search_button": "mf_ssgoTopMainTab_contents_content1_body_btn_srchCs",
         "input_mode_checkbox": "mf_ssgoTopMainTab_contents_content1_body_cbx_chkSanoInputMode_input_0",
         "detail_body": "mf_ssgoTopMainTab_contents_content1_body_wfSsgoDetail_ssgoCsDetailTab_contents_ssgoTab1_body",
-        "progress_tab": "mf_ssgoTopMainTab_contents_content1_body_wfSsgoDetail_ssgoCsDetailTab_tab_ssgoTab2_tabHTML"
+        "progress_tab": "mf_ssgoTopMainTab_contents_content1_body_wfSsgoDetail_ssgoCsDetailTab_tab_ssgoTab2_tabHTML",
+        "table_basic_info_regex": "ssgoTab1_body_wq_uuid_\\d+",
+        "table_basic_info_css": "table[id*=\"ssgoTab1_body_wq_uuid_\"]",
+        "table_schedule_regex": "rcntDxdyLst_body_table",
+        "table_party_regex": "btprtCttLst_body_table",
+        "table_cs_prog_tbody": "grd_csProgLst_body_tbody",
+        "table_cs_prog_css": "table[id$=\"grd_csProgLst_body_table\"] > tbody > tr",
+        "table_related_case_regex": "wfReltCsLst_grd_reltCsCtt_body_table",
+        "loading_indicator_css": "[id*=\"processbar\"], [class*=\"loading\"]"
     },
+    "court_mapping_rules": [
+        {
+            "case_types": ["개회", "개확", "하합", "하단", "하확", "하면", "회합", "회단", "간회합", "간회단", "회기"],
+            "mapping": {
+                "대전지방법원": "대전회생법원",
+                "대구지방법원": "대구회생법원",
+                "광주지방법원": "광주회생법원"
+            }
+        }
+    ],
     "header_mapping": {
         "법원": [
             "법원",
