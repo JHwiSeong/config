@@ -1,7 +1,7 @@
 {
-    "_comment": "HPA 외부 설정 파일 - GitHub에서 관리. 이 파일을 수정하면 코드 재배포 없이 설정이 반영됩니다.",
+    "_comment": "HPA 외부 설정 파일",
     "court_mappings": {
-        "_comment": "엑셀에 기재된 법원명 -> 전자소송/FMS에서 실제로 선택할 법원명 으로 자동 변환합니다.",
+        "_comment": "엑셀에 기재된 법원명 -> 실제로 선택할 법원명 으로 자동 변환.",
         "대전지방법원": "대전회생법원",
         "대구지방법원": "대구회생법원",
         "광주지방법원": "광주회생법원",
@@ -9,9 +9,9 @@
         "부산지방법원": "부산회생법원"
     },
     "selectors": {
-        "_comment": "FMS 및 전자소송 사이트의 UI 요소 ID. 사이트 업데이트 시 이 파일만 수정하면 됩니다.",
+        "_comment": "fms 및 e_litigation 사이트의 요소.",
         "fms": {
-            "_comment_fms": "FMS 회생/파산관리 화면 공통 요소",
+            "_comment_fms": "회생/파산관리 화면 공통 요소",
             "side_menu_btn": "mf_wfm_side_anc_menu02",
             "loading_bar": "___processbar2",
             "modal_overlay": "_modal",
@@ -37,7 +37,7 @@
             "tab_corp_bankrupt": "mf_wdc_main_subWindow0_wframe_tab_tab_tabs4_tabHTML"
         },
         "e_litigation": {
-            "_comment_elit": "전자소송 사이트 (채권자계좌번호신고서) 화면 요소",
+            "_comment_elit": "e_litigation 사이트 (채권자계좌번호신고서) 화면 요소",
             "login_check_id": "mf_pfheader_anc_login",
             "main_submission_menu": "mf_pfheader_depth1_menu1",
             "personal_rehab_submenu": "mf_pfheader_anc_menuid_110601",
@@ -64,7 +64,7 @@
             "e_sign_request_btn": "mf_pfwork_btnReqElcSigned"
         },
         "e_litigation_case_registration": {
-            "_comment_reg": "전자소송 사건 미등록 시 신규 등록 절차 요소",
+            "_comment_reg": "e_litigation 사건 미등록 시 신규 등록 절차 요소",
             "no_cert_tab": "mf_pfwork_tabCtrl_tab_tabs2_tabHTML",
             "party_name_input": "mf_pfwork_elctnLwstCertNoN_ibx_btprtNm",
             "agent_select_btn": "mf_pfwork_elctnLwstCertNoN_btn_selAgntId",
@@ -83,3 +83,4 @@
         }
     }
 }
+
