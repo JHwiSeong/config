@@ -1,0 +1,35 @@
+{
+    "_comment": "HPA 외부 설정 파일 - GitHub에서 관리. 이 파일을 수정하면 코드 재배포 없이 설정이 반영됩니다.",
+    "court_mappings": {
+        "_comment": "엑셀에 기재된 법원명 -> 전자소송/FMS에서 실제로 선택할 법원명 으로 자동 변환합니다.",
+        "대전지방법원": "대전회생법원",
+        "대구지방법원": "대구회생법원",
+        "광주지방법원": "광주회생법원",
+        "수원지방법원": "수원회생법원",
+        "부산지방법원": "부산회생법원"
+    },
+    "selectors": {
+        "_comment": "FMS 및 전자소송 사이트의 UI 요소 ID/XPath. 사이트 업데이트 시 이 파일만 수정하면 됩니다.",
+        "fms": {
+            "applicant_no_input": "mf_wdc_main_subWindow0_wframe_inpAplcntCustNo",
+            "applicant_search_icon": "mf_wdc_main_subWindow0_wframe_btn_popSelectAplcntCust",
+            "popup_search_input": "mf_wdc_main_subWindow0_wframe_AplcntCustSearchPopup_wframe_inpSearchNm",
+            "popup_search_btn": "mf_wdc_main_subWindow0_wframe_AplcntCustSearchPopup_wframe_btnSearch",
+            "case_no_input": "mf_wdc_main_subWindow0_wframe_ipxIncdntNo",
+            "main_search_btn": "mf_wdc_main_subWindow0_wframe_btnSearch",
+            "case_list_grid_tbody": "mf_wdc_main_subWindow0_wframe_grdSbnd510mList_body_tbody",
+            "personal_rehab_scroll": "mf_wdc_main_subWindow0_wframe_wfmLayout1_grdSbnd520mList_scrollY_div",
+            "personal_rehab_grid": "mf_wdc_main_subWindow0_wframe_wfmLayout1_grdSbnd520mList_body_tbody"
+        },
+        "e_litigation": {
+            "main_submission_menu": "mf_pfheader_depth1_menu1",
+            "personal_rehab_submenu": "mf_pfheader_anc_menuid_110601",
+            "court_dropdown": "mf_pfwork_sbx_cortCd",
+            "case_year_dropdown": "mf_pfwork_sbx_csYear",
+            "case_type_input": "mf_pfwork_acp_csDvsCd_input",
+            "case_serial_input": "mf_pfwork_ibx_csSerial",
+            "confirm_btn": "mf_pfwork_btn_confirm",
+            "bond_search_btn": "mf_pfwork_wfm_bndBas_wq_uuid_1044"
+        }
+    }
+}
