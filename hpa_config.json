@@ -35,7 +35,9 @@
             "tab_general_rehab": "mf_wdc_main_subWindow0_wframe_tab_tab_tabs2_tabHTML",
             "tab_personal_bankrupt": "mf_wdc_main_subWindow0_wframe_tab_tab_tabs3_tabHTML",
             "tab_corp_bankrupt": "mf_wdc_main_subWindow0_wframe_tab_tab_tabs4_tabHTML",
-            "declare_account_btn": "mf_wdc_main_subWindow0_wframe_wfmLayout1_btnDclrLoan"
+            "declare_account_btn": "mf_wdc_main_subWindow0_wframe_wfmLayout1_btnDclrLoan",
+            "declare_account_popup": "mf_wdc_main_subWindow0_wframe_wfmLayout1_SBND515P",
+            "declare_account_close_btn": "mf_wdc_main_subWindow0_wframe_wfmLayout1_SBND515P_wframe_trigger2"
         },
         "e_litigation": {
             "_comment_elit": "e_litigation 사이트 (채권자계좌번호신고서) 화면 요소",
@@ -84,5 +86,6 @@
         }
     }
 }
+
 
 
