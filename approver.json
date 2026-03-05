@@ -508,8 +508,8 @@
         "verify_name_existing_case": true
       },
       "memo_config": {
-        "register_new": true,
-        "update_case": true,
+        "register_new": false,
+        "update_case": false,
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
         "date_format": "%y-%m-%d",
@@ -545,6 +545,7 @@
     ]
   }
 }
+
 
 
 
