@@ -65,7 +65,7 @@
         }
       }
     },
-    "개발용 (0305 1448)": {
+    "개발용 (03060839)": {
       "access_code": "5253",
       "team_lead": {
         "name": "심영호",
@@ -94,12 +94,12 @@
         "update_case": true,
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
-        "date_format": "%Y-%m-%d",
+        "date_format": "%y-%m-%d",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
           "account_decl_date": "{date} : 계좌신고 완료",
-          "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
-          "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
+          "register_new": "{timestamp} {process_content}",
+          "update_case": "{timestamp} {process_content}"
         }
       }
     },
@@ -545,6 +545,7 @@
     ]
   }
 }
+
 
 
 
