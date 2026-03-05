@@ -97,7 +97,7 @@
         "date_format": "%Y-%m-%d",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "{timestamp} : 계좌신고 완료",
+          "account_decl_date": "{date} : 계좌신고 완료",
           "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
           "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
         }
@@ -515,7 +515,7 @@
         "date_format": "%y.%m.%d",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "{timestamp} 계좌신고 완료",
+          "account_decl_date": "{date} 계좌신고 완료",
           "register_new": "{timestamp} {process_content}",
           "update_case": "{timestamp} {process_content}"
         }
@@ -545,4 +545,5 @@
     ]
   }
 }
+
 
