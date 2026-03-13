@@ -3,7 +3,92 @@
     "global_notice": {
         "enable": true,
         "title": "넘모일하기싫다",
-        "message": "🔥 [HPA 최신버전은 v5.5.3 입니다]\n 최신버전을 이용해주세요!\n\n1. 메모 작성 기능 오류 수정\n2. 신규 회생법원 대응\n3. 파산 드롭다운 버그 수정\n\n　　　　　　　　　　　　　　　- 2026.3.9. -"
+        "message": "🔥 [HPA 최신버전은 v5.5.3 입니다]\n 최신버전을 이용해주세요!\n\n※ RPA대응 수정중...\n\n　　　　　　　　　　　　　　　- 2026.3.13. -"
+    },
+    "field_maps": {
+        "_comment": "FMS 화면 입력 시 사용할 엑셀 헤더 매핑 우선순위. 왼쪽부터 우선적으로 빈 값이 아닌지 확인합니다.",
+        "basic_cols": {
+            "신청자번호": ["신청자번호", "고객번호"],
+            "실명확인번호": ["실명확인번호", "주민번호"],
+            "사건번호": ["사건번호"],
+            "법원": ["법원", "관할법원"],
+            "이름": ["이름", "채무자명", "신청인명", "채무자", "신청자"],
+            "전자소송번호": ["전자소송번호"],
+            "종국결과": ["종국결과"],
+            "면책여부": ["면책여부"],
+            "파일명": ["파일명", "첨부파일"],
+            "채권상태": ["채권상태"]
+        },
+        "common": {
+            "사건번호": { "id_suffix": "_inpIncdntNo", "type": "text_with_tab", 
+                "excel_cols": ["사건번호"] },
+            "법원": { "id_suffix": "_sbxCmptncCtCd", "type": "autocomplete", 
+                "excel_cols": ["법원", "관할법원"] },
+            "전자소송번호": { "id_suffix": "_inpElctLwsNo", "type": "text", "input_method": "clear", 
+                "excel_cols": ["전자소송번호"] }
+        },
+        "wfmLayout1": {
+            "신청일자": { "id_suffix": "_inpAplyYmd_input", "type": "text", 
+                "excel_cols": ["접수일", "신청일"] },
+            "중지/금지명령일자": { "id_suffix": "_inpPrsvDspsAbrtCmdYmd_input", "type": "text", 
+                "excel_cols": ["금지/중지명령일"] },
+            "개시일자": { "id_suffix": "_inpStrtYmd_input", "type": "text", 
+                "excel_cols": ["개시결정일"] },
+            "이의신청기한": { "id_suffix": "_inpCrdtrObjcAplyTermYmd_input", "type": "text", 
+                "excel_cols": ["채권이의마감일"] },
+            "채권자집회일자": { "id_suffix": "_inpCrdtrRalyYmd_input", "type": "text", 
+                "excel_cols": ["기일_일자"] },
+            "변제계획인가일자": { "id_suffix": "_inpPybkPlanSncnYmd_input", "type": "text", 
+                "excel_cols": ["변제계획인가일"] }
+        },
+        "wfmLayout2": {
+            "신청일자": { "id_suffix": "_inpAplyYmd_input", "type": "text", 
+                "excel_cols": ["접수일", "신청일"] },
+            "중지/금지명령일자": { "id_suffix": "_inpPrsvDspsAbrtCmdYmd_input", "type": "text", 
+                "excel_cols": ["일회 금지명령일"] },
+            "개시일자": { "id_suffix": "_inpStrtYmd_input", "type": "text", 
+                "excel_cols": ["일회 개시결정일"] },
+            "이의신청기한": { "id_suffix": "_inpCrdtrObjcAplyTermYmd_input", "type": "text", 
+                "excel_cols": ["이의신청기한"] },
+            "채권신고기한": { "id_suffix": "_inpBndDclrTermYmd_input", "type": "text", 
+                "excel_cols": ["채권신고기한"] },
+            "채권신고일자": { "id_suffix": "_inpBndDclrYmd_input", "type": "text", 
+                "excel_cols": ["채권신고일자"] },
+            "관계인집회기일": { "id_suffix": "_inpCrdtrRalyYmd_input", "type": "text", 
+                "excel_cols": ["관계인집회기일"] },
+            "변제계획인가일자": { "id_suffix": "_inpPybkPlanSncnYmd_input", "type": "text", 
+                "excel_cols": ["일회 인가결정일"] },
+            "종결일자": { "id_suffix": "_inpTrmnYmd_input", "type": "text", 
+                "excel_cols": ["종결일자"] }
+        },
+        "wfmLayout3": {
+            "파산신청일자": { "id_suffix": "_inpAplyYmd_input", "type": "text", 
+                "excel_cols": ["접수일", "신청일"] },
+            "파산선고일자": { "id_suffix": "_inpInslAdjcYmd_input", "type": "text", 
+                "excel_cols": ["선고결정일", "선고결정공고일"] },
+            "면책이의기한": { "id_suffix": "_inpImnObjcAplyYmd_input", "type": "text", 
+                "excel_cols": ["면책이의기한"] },
+            "채권자집회일자": { "id_suffix": "_ipxCrdtrRalyYmd_input", "type": "text", 
+                "excel_cols": ["기일_일자"] },
+            "채권신고기한": { "id_suffix": "_inpBndDclrTermYmd_input", "type": "text", 
+                "excel_cols": ["채권신고기한"] },
+            "채권신고일자": { "id_suffix": "_inpBndDclrYmd_input", "type": "text", 
+                "excel_cols": ["채권신고일자"] }
+        },
+        "wfmLayout4": {
+            "파산신청일자": { "id_suffix": "_inpAplyYmd_input", "type": "text", 
+                "excel_cols": ["접수일", "신청일"] },
+            "파산선고일자": { "id_suffix": "_inpInslAdjcYmd_input", "type": "text", 
+                "excel_cols": ["선고결정일", "선고결정공고일"] },
+            "채권자집회일자": { "id_suffix": "_ipxCrdtrRalyYmd_input", "type": "text", 
+                "excel_cols": ["기일_일자"] },
+            "채권신고기한": { "id_suffix": "_inpBndDclrTermYmd_input", "type": "text", 
+                "excel_cols": ["채권신고기한"] },
+            "채권신고일자": { "id_suffix": "_inpBndDclrYmd_input", "type": "text", 
+                "excel_cols": ["채권신고일자"] },
+            "청산확정일자": { "id_suffix": "_inpLqdCfmtnYmd_input", "type": "text", 
+                "excel_cols": ["청산확정일자"] }
+        }
     },
     "court_mappings": {
         "_comment": "엑셀에 기재된 법원명 -> 실제로 선택할 법원명 으로 자동 변환.",
@@ -42,7 +127,29 @@
             "tab_corp_bankrupt": "mf_wdc_main_subWindow0_wframe_tab_tab_tabs4_tabHTML",
             "declare_account_btn": "mf_wdc_main_subWindow0_wframe_wfmLayout1_btnDclrLoan",
             "declare_account_popup": "mf_wdc_main_subWindow0_wframe_wfmLayout1_SBND515P",
-            "declare_account_close_btn": "mf_wdc_main_subWindow0_wframe_wfmLayout1_SBND515P_wframe_trigger2"
+            "declare_account_close_btn": "mf_wdc_main_subWindow0_wframe_wfmLayout1_SBND515P_wframe_trigger2",
+            "layout_configs": {
+                "wfmLayout1": {
+                    "종국결과_날짜필드매핑": { "인용": "_inpImnYmd_input", "default": "_inpRtrcnYmd_input" },
+                    "종국결과_진행상태_단어리스트": ["폐지", "신청취하", "기각"],
+                    "종국결과_단어변환": { "신청취하": "취하" }
+                },
+                "wfmLayout2": {
+                    "종국결과_날짜필드매핑": { "인용": "_inpImnYmd_input", "default": "_inpRtrcnYmd_input" },
+                    "종국결과_진행상태_단어리스트": ["폐지", "신청취하", "기각"],
+                    "종국결과_단어변환": { "신청취하": "취하" }
+                },
+                "wfmLayout3": {
+                    "종국결과_날짜필드매핑": { "종결": "_inpTrmnYmd_input", "폐지": "_inpRtrcnYmd_input", "기각": "_inpRtrcnYmd_input", "취하": "_inpRtrcnYmd_input", "각하": "_inpRtrcnYmd_input" },
+                    "종국결과_단어변환": { "신청취하": "취하" },
+                    "면책여부_단어변환": { "인용": "면책", "불허가": "면책불허가", "신청취하": "면책취하", "기각": "면책기각" },
+                    "면책여부_날짜필드매핑": { "인용": "_inpIndivInslImnDcsnYmd_input", "default": "_inpIndivInslImnDprbDcsnYmd_input" }
+                },
+                "wfmLayout4": {
+                    "종국결과_날짜필드매핑": { "폐지": "_inpCorpInslTrmnYmd_input", "종결": "_inpCorpInslTrmnYmd_input", "기각": "_inpRtrcnYmd_input", "신청취하": "_inpRtrcnYmd_input", "취하": "_inpRtrcnYmd_input", "각하": "_inpRtrcnYmd_input" },
+                    "종국결과_단어변환": { "신청취하": "취하" }
+                }
+            }
         },
         "e_litigation": {
             "_comment_elit": "e_litigation 사이트 (채권자계좌번호신고서) 화면 요소",
@@ -91,14 +198,3 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
