@@ -1,7 +1,7 @@
 {
   "filename_rules": [
     {
-      "keyword": "개인회생",
+      "keyword": "re:\\d{4}개회",
       "subrules": [
         { "contains": "금지한다", "result": "개회 금지명령" },
         { "contains": ["593조", "1항"], "mode": "and", "result": "개회 금지명령" },
