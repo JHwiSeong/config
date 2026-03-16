@@ -67,37 +67,37 @@
     {
       "keyword": "re:\\d{4}회단",
       "subrules": [
-        { "contains": "포괄적금지명령", "result": "회생 금지명령" },
-        { "contains": ["293조", "1항", "금지"], "mode": "and", "result": "회생 금지명령" },
-        { "contains": ["개시결정의주문", "개시결정을하였으므로"], "mode": "or", "result": "회생 개시결정" },
-        { "contains": ["주문", "회생절차를개시한다", "이의기간을"], "mode": "and", "result": "회생 개시결정" },
-        { "contains": ["회생절차를개시한다", "이의기간을"], "mode": "and", "result": "회생 개시결정" },
-        { "contains": "기각한다", "result": "회생 기각결정" },
-        { "contains": "폐지한다", "result": "회생 폐지결정" },
-        { "contains": ["취하", "허가"], "mode": "and", "result": "회생 취하결정" },
-        { "contains": ["기간을", "연장한다"], "mode": "and", "result": "회생 기일변경" },
-        { "contains": ["기일의일시", "변경한다"], "mode": "and", "result": "회생 기일변경" },
-        { "contains": ["집회기일이", "변경되었"], "mode": "and", "result": "회생 기일변경" },
-        { "contains": ["기일을다음과같이변경한다", "기일이다음과같이변경", "기일및장소를아래와같이다시지정"], "mode": "or", "result": "회생 기일변경" },
-        { "contains": ["기간을", "정한다"], "mode": "and", "result": "회생 기일지정" }
+        { "contains": "포괄적금지명령", "result": "회단 금지명령" },
+        { "contains": ["293조", "1항", "금지"], "mode": "and", "result": "회단 금지명령" },
+        { "contains": ["개시결정의주문", "개시결정을하였으므로"], "mode": "or", "result": "회단 개시결정" },
+        { "contains": ["주문", "회생절차를개시한다", "이의기간을"], "mode": "and", "result": "회단 개시결정" },
+        { "contains": ["회생절차를개시한다", "이의기간을"], "mode": "and", "result": "회단 개시결정" },
+        { "contains": "기각한다", "result": "회단 기각결정" },
+        { "contains": "폐지한다", "result": "회단 폐지결정" },
+        { "contains": ["취하", "허가"], "mode": "and", "result": "회단 취하결정" },
+        { "contains": ["기간을", "연장한다"], "mode": "and", "result": "회단 기일변경" },
+        { "contains": ["기일의일시", "변경한다"], "mode": "and", "result": "회단 기일변경" },
+        { "contains": ["집회기일이", "변경되었"], "mode": "and", "result": "회단 기일변경" },
+        { "contains": ["기일을다음과같이변경한다", "기일이다음과같이변경", "기일및장소를아래와같이다시지정"], "mode": "or", "result": "회단 기일변경" },
+        { "contains": ["기간을", "정한다"], "mode": "and", "result": "회단 기일지정" }
       ]
     },
     {
       "keyword": "re:\\d{4}회합",
       "subrules": [
-        { "contains": "포괄적금지명령", "result": "회생 금지명령" },
-        { "contains": ["293조", "1항", "금지"], "mode": "and", "result": "회생 금지명령" },
-        { "contains": ["개시결정의주문", "개시결정을하였으므로"], "mode": "or", "result": "회생 개시결정" },
-        { "contains": ["주문", "회생절차를개시한다", "이의기간을"], "mode": "and", "result": "회생 개시결정" },
-        { "contains": ["회생절차를개시한다", "이의기간을"], "mode": "and", "result": "회생 개시결정" },
-        { "contains": "기각한다", "result": "회생 기각결정" },
-        { "contains": "폐지한다", "result": "회생 폐지결정" },
-        { "contains": ["취하", "허가"], "mode": "and", "result": "회생 취하결정" },
-        { "contains": ["기간을", "연장한다"], "mode": "and", "result": "회생 기일변경" },
-        { "contains": ["기일의일시", "변경한다"], "mode": "and", "result": "회생 기일변경" },
-        { "contains": ["집회기일이", "변경되었"], "mode": "and", "result": "회생 기일변경" },
-        { "contains": ["기일을다음과같이변경한다", "기일이다음과같이변경", "기일및장소를아래와같이다시지정"], "mode": "or", "result": "회생 기일변경" },
-        { "contains": ["기간을", "정한다"], "mode": "and", "result": "회생 기일지정" }
+        { "contains": "포괄적금지명령", "result": "회합 금지명령" },
+        { "contains": ["293조", "1항", "금지"], "mode": "and", "result": "회합 금지명령" },
+        { "contains": ["개시결정의주문", "개시결정을하였으므로"], "mode": "or", "result": "회합 개시결정" },
+        { "contains": ["주문", "회생절차를개시한다", "이의기간을"], "mode": "and", "result": "회합 개시결정" },
+        { "contains": ["회생절차를개시한다", "이의기간을"], "mode": "and", "result": "회합 개시결정" },
+        { "contains": "기각한다", "result": "회합 기각결정" },
+        { "contains": "폐지한다", "result": "회합 폐지결정" },
+        { "contains": ["취하", "허가"], "mode": "and", "result": "회합 취하결정" },
+        { "contains": ["기간을", "연장한다"], "mode": "and", "result": "회합 기일변경" },
+        { "contains": ["기일의일시", "변경한다"], "mode": "and", "result": "회합 기일변경" },
+        { "contains": ["집회기일이", "변경되었"], "mode": "and", "result": "회합 기일변경" },
+        { "contains": ["기일을다음과같이변경한다", "기일이다음과같이변경", "기일및장소를아래와같이다시지정"], "mode": "or", "result": "회합 기일변경" },
+        { "contains": ["기간을", "정한다"], "mode": "and", "result": "회합 기일지정" }
       ]
     },
     {
@@ -127,7 +127,7 @@
       ]
     }
   ],
-  "default": "파일명재지정필요"
+  "default": "hwi"
 }
 
 
