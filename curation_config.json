@@ -39,5 +39,17 @@
       "순번": "순번",
       "처리결과": ["처리결과", "RPA"]
     }
+  },
+  "excel_layouts": {
+    "common_start": ["번호", "이름", "실명확인번호", "사건번호", "법원", "고객번호", "업체번호", "{debtor_label}", "접수일"],
+    "common_end": ["종국결과", "재판부", "전자소송번호", "변경전 파일명", "파일명", "페이지 수", "RPA처리결과", "비고"],
+    "specific_cols": {
+      "rehabilitation": ["금지명령일", "개시결정일", "채권이의마감일", "집회기일", "변제계획인가일", "절차폐지결정일", "면책결정일"],
+      "bankruptcy": ["파산선고일", "면책이의기한", "채권신고기한", "채권자집회일", "절차폐지결정일", "면책결정일"]
+    }
+  },
+  "output_templates": {
+    "success_file": "(HPA가능){first_receive_date}_{target_dept}.xlsx",
+    "pending_file": "(검색필요){sheet_name}_{first_receive_date}_{target_dept}.xlsx"
   }
 }
