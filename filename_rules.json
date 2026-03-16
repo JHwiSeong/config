@@ -32,7 +32,7 @@
       "keyword": "re:\\d{4}간회합",
       "subrules": [
         { "contains": "포괄적금지명령", "result": "간회 금지명령" },
-        { "contains": ["293조", "1항"], "mode": "and", "result": "간회 금지명령" },
+        { "contains": ["293조", "1항", "금지"], "mode": "and", "result": "간회 금지명령" },
         { "contains": ["개시결정의주문", "개시결정을하였으므로"], "mode": "or", "result": "간회 개시결정" },
         { "contains": ["주문", "회생절차를개시한다", "이의기간을"], "mode": "and", "result": "간회 개시결정" },
         { "contains": ["회생절차를개시한다", "이의기간을"], "mode": "and", "result": "간회 개시결정" },
@@ -50,7 +50,7 @@
       "keyword": "re:\\d{4}간회단",
       "subrules": [
         { "contains": "포괄적금지명령", "result": "간회 금지명령" },
-        { "contains": ["293조", "1항"], "mode": "and", "result": "간회 금지명령" },
+        { "contains": ["293조", "1항", "금지"], "mode": "and", "result": "간회 금지명령" },
         { "contains": ["개시결정의주문", "개시결정을하였으므로"], "mode": "or", "result": "간회 개시결정" },
         { "contains": ["주문", "회생절차를개시한다", "이의기간을"], "mode": "and", "result": "간회 개시결정" },
         { "contains": ["회생절차를개시한다", "이의기간을"], "mode": "and", "result": "간회 개시결정" },
@@ -68,7 +68,7 @@
       "keyword": "re:\\d{4}회단",
       "subrules": [
         { "contains": "포괄적금지명령", "result": "회생 금지명령" },
-        { "contains": ["293조", "1항"], "mode": "and", "result": "회생 금지명령" },
+        { "contains": ["293조", "1항", "금지"], "mode": "and", "result": "회생 금지명령" },
         { "contains": ["개시결정의주문", "개시결정을하였으므로"], "mode": "or", "result": "회생 개시결정" },
         { "contains": ["주문", "회생절차를개시한다", "이의기간을"], "mode": "and", "result": "회생 개시결정" },
         { "contains": ["회생절차를개시한다", "이의기간을"], "mode": "and", "result": "회생 개시결정" },
@@ -86,7 +86,7 @@
       "keyword": "re:\\d{4}회합",
       "subrules": [
         { "contains": "포괄적금지명령", "result": "회생 금지명령" },
-        { "contains": ["293조", "1항"], "mode": "and", "result": "회생 금지명령" },
+        { "contains": ["293조", "1항", "금지"], "mode": "and", "result": "회생 금지명령" },
         { "contains": ["개시결정의주문", "개시결정을하였으므로"], "mode": "or", "result": "회생 개시결정" },
         { "contains": ["주문", "회생절차를개시한다", "이의기간을"], "mode": "and", "result": "회생 개시결정" },
         { "contains": ["회생절차를개시한다", "이의기간을"], "mode": "and", "result": "회생 개시결정" },
