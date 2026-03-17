@@ -128,6 +128,16 @@
             "declare_account_btn": "mf_wdc_main_subWindow0_wframe_wfmLayout1_btnDclrLoan",
             "declare_account_popup": "mf_wdc_main_subWindow0_wframe_wfmLayout1_SBND515P",
             "declare_account_close_btn": "mf_wdc_main_subWindow0_wframe_wfmLayout1_SBND515P_wframe_trigger2",
+            "_comment_doc_popup": "증빙서류 팝업(SBND511P) 관련 XPath",
+            "doc_popup_grid_tbody_xpath": "//tbody[contains(@id, '_grd_sbnd511p_body_tbody')]",
+            "doc_popup_grid_rows_xpath": "//tbody[contains(@id, '_grd_sbnd511p_body_tbody')]/tr[not(contains(@class, 'w2grid_hidedRow'))]",
+            "doc_popup_add_btn_xpath": "//input[contains(@id, '_SBND511P_wframe_btnAdd')]",
+            "doc_popup_del_btn_xpath": "//input[contains(@id, '_SBND511P_wframe_btnDel')]",
+            "doc_popup_save_btn_xpath": "//input[contains(@id, '_SBND511P_wframe_btnSave')]",
+            "doc_popup_file_input_xpath": "(//input[@type='file' and contains(@class, 'w2upload_fakeInput')])[last()]",
+            "doc_popup_file_select_btn_xpath": "(//button[text()='파일선택'])[last()]",
+            "doc_popup_confirm_yes_xpath": "//div[contains(@id, '_wframe_confirm')]//input[@value='예']",
+            "doc_popup_alert_ok_xpath": "//div[contains(@id, '_wframe_alert')]//input[@value='확인']",
             "layout_configs": {
                 "wfmLayout1": {
                     "종국결과_날짜필드매핑": { "인용": "_inpImnYmd_input", "default": "_inpRtrcnYmd_input" },
