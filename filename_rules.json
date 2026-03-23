@@ -102,7 +102,7 @@
       ]
     },
     {
-      "keyword": "re:\\d{4}하단",
+      "keyword": "re:(\\d{4}하단|파산선고)",
       "subrules": [
         { "contains": ["파산을선고한다", "파산을폐지한다"], "mode": "and", "result": "파산 동시폐지" },
         { "contains": ["파산을선고", "파산관재인으로선임"], "mode": "or", "result": "파산 선고결정" },
