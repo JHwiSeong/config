@@ -1,6 +1,5 @@
 {
   "valid_sheets": ["개인회생", "개인파산", "일반회생", "법인파산"],
-  "search_folders": ["3차성공", "2차성공", "1차성공", "확인필요"],
   "header_mapping": {
     "categories": {
       "OCR": "OCR",
