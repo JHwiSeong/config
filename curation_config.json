@@ -49,6 +49,7 @@
   },
   "output_templates": {
     "success_file": "(HPA가능){first_receive_date}_{target_dept}.xlsx",
+    "missing_file": "(증빙없음){first_receive_date}_{target_dept}.xlsx",
     "pending_file": "(검색필요){sheet_name}_{first_receive_date}_{target_dept}.xlsx"
   }
 }
