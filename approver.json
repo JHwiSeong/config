@@ -508,11 +508,11 @@
         "verify_name_existing_case": true
       },
       "memo_config": {
-        "register_new": false,
-        "update_case": false,
+        "register_new": true,
+        "update_case": true,
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
-        "date_format": "%y-%m-%d",
+        "date_format": "%y.%m.%d",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
           "account_decl_date": "{date} 계좌신고 완료",
