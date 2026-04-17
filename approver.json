@@ -249,7 +249,7 @@
         "date_format": "'%y.%m.%d. / %H:%M",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "계좌신고 완료",
+          "account_decl_date": "계좌신고서 제출 완료",
           "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
           "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
         }
@@ -325,7 +325,7 @@
         "date_format": "'%y.%m.%d. / %H:%M",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "채권자 계좌 신고 완료",
+          "account_decl_date": "채권자 계좌번호 신고 완료",
           "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
           "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
         }
