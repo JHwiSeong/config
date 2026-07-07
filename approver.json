@@ -178,7 +178,7 @@
           "account_decl_date": "* {date}  계좌 신고 완료.",
           "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
           "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
-        },
+        }
       }
     },
     "경기남부 (미지원)": {
