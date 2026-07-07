@@ -97,7 +97,7 @@
         "date_format": "%Y-%m-%d",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "*{date}  계좌 신고 완료.",
+          "account_decl_date": "* {date}  계좌 신고 완료.",
           "register_new": "{timestamp} {process_content}",
           "update_case": "{timestamp} {process_content}"
         }
@@ -131,12 +131,12 @@
       "memo_config": {
         "register_new": false,
         "update_case": false,
-        "account_declaration": false,
+        "account_declaration": true,
         "account_decl_mode": "date_prepend",
         "date_format": "%Y-%m-%d",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "{date} : 계좌신고 완료",
+          "account_decl_date": "* {date}  계좌 신고 완료.",
           "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
           "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
         }
@@ -172,13 +172,13 @@
         "update_case": false,
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
+        "date_format": "%Y-%m-%d",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "계좌신고 완.",
+          "account_decl_date": "* {date}  계좌 신고 완료.",
           "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
           "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
         },
-        "date_format": "'%y.%m.%d. / %H:%M"
       }
     },
     "경기남부 (미지원)": {
@@ -211,10 +211,10 @@
         "update_case": false,
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
-        "date_format": "'%y.%m.%d. / %H:%M",
+        "date_format": "%Y-%m-%d",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "계좌신고 완료",
+          "account_decl_date": "* {date}  계좌 신고 완료.",
           "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
           "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
         }
@@ -250,10 +250,10 @@
         "update_case": false,
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
-        "date_format": "'%y.%m.%d. / %H:%M",
+        "date_format": "%Y-%m-%d",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "계좌신고서 제출 완료",
+          "account_decl_date": "* {date}  계좌 신고 완료.",
           "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
           "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
         }
@@ -289,10 +289,10 @@
         "update_case": false,
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
-        "date_format": "'%y.%m.%d. / %H:%M",
+        "date_format": "%Y-%m-%d",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "계좌 신고 완료",
+          "account_decl_date": "* {date}  계좌 신고 완료.",
           "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
           "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
         }
@@ -328,10 +328,10 @@
         "update_case": false,
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
-        "date_format": "'%y.%m.%d. / %H:%M",
+        "date_format": "%Y-%m-%d",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "채권자 계좌번호 신고 완료",
+          "account_decl_date": "* {date}  계좌 신고 완료.",
           "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
           "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
         }
@@ -367,10 +367,10 @@
         "update_case": false,
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
-        "date_format": "'%y.%m.%d. / %H:%M",
+        "date_format": "%Y-%m-%d",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "[{timestamp}] 계좌신고 완료",
+          "account_decl_date": "* {date}  계좌 신고 완료.",
           "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
           "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
         }
@@ -406,10 +406,10 @@
         "update_case": false,
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
-        "date_format": "'%y.%m.%d. / %H:%M",
+        "date_format": "%Y-%m-%d",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "계좌신고 완료",
+          "account_decl_date": "* {date}  계좌 신고 완료.",
           "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
           "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
         }
@@ -444,10 +444,10 @@
         "update_case": false,
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
-        "date_format": "'%y.%m.%d. / %H:%M",
+        "date_format": "%Y-%m-%d",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "[{timestamp}] 계좌신고 완료",
+          "account_decl_date": "* {date}  계좌 신고 완료.",
           "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
           "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
         }
@@ -483,10 +483,10 @@
         "update_case": false,
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
-        "date_format": "'%y.%m.%d. / %H:%M",
+        "date_format": "%Y-%m-%d",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "[{timestamp}] 계좌신고 완료",
+          "account_decl_date": "* {date}  계좌 신고 완료.",
           "register_new": "[ {timestamp} ] 신규등록 | {name} | {bond_status}",
           "update_case": "[ {timestamp} ] {process_content} | {name} | {bond_status}"
         }
@@ -522,12 +522,12 @@
         "update_case": true,
         "account_declaration": true,
         "account_decl_mode": "date_prepend",
-        "date_format": "%y.%m.%d",
+        "date_format": "%Y-%m-%d",
         "templates": {
           "account_decl_arrow": " → 계좌신고 완료",
-          "account_decl_date": "{date} 계좌신고 완료",
-          "register_new": "{timestamp} {process_content}",
-          "update_case": "{timestamp} {process_content}"
+          "account_decl_date": "* {date}  계좌 신고 완료.",
+          "register_new": "* {timestamp}  {process_content}",
+          "update_case": "* {timestamp}  {process_content}"
         }
       }
     }
