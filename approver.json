@@ -104,7 +104,7 @@
       }
     },
     "서울 (김훈구/조용민)": {
-      "access_code": "웨스트울",
+      "access_code": "양현서",
       "team_lead": {
         "name": "김훈구",
         "department": "서울금융사업팀",
@@ -143,7 +143,7 @@
       }
     },
     "대전세종충남 (김은경/박경모)": {
-      "access_code": "철인투종원",
+      "access_code": "둘벨원",
       "team_lead": {
         "name": "김은경",
         "department": "대전세종충남금융사업팀",
@@ -221,7 +221,7 @@
       }
     },
     "대구경북 (장해녕/김현석)": {
-      "access_code": "김다브로",
+      "access_code": "킴다",
       "team_lead": {
         "name": "장해녕",
         "department": "대구경북금융사업팀",
@@ -376,12 +376,12 @@
         }
       }
     },
-    "경기북부 (황순원/김상목)": {
-      "access_code": "롱성욱",
+    "경기북부 (나영/김상목)": {
+      "access_code": "캐슬욱",
       "team_lead": {
-        "name": "황순원",
-        "department": "경기북부금융사업팀",
-        "full_title": "팀장 (경기북부금융사업팀)"
+        "name": "나영",
+        "department": "경기북부성장지원팀",
+        "full_title": "팀장 (경기북부성장지원팀)"
       },
       "division_head": {
         "name": "김상목",
@@ -493,11 +493,11 @@
       }
     },
     "경남 (김영민/정희)": {
-      "access_code": "실버솔",
+      "access_code": "골드솔",
       "team_lead": {
         "name": "김영민",
-        "department": "경남금융사업팀",
-        "full_title": "팀장 (경남금융사업팀)"
+        "department": "경남성장지원팀",
+        "full_title": "팀장 (경남성장지원팀)"
       },
       "division_head": {
         "name": "정희",
