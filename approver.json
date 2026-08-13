@@ -181,15 +181,15 @@
         }
       }
     },
-    "경기남부 (미지원)": {
-      "access_code": "수원갈비탕",
+    "경기남부 (이고운/박경모)": {
+      "access_code": "스피어겸",
       "team_lead": {
-        "name": "미지원",
+        "name": "이고운",
         "department": "경기남부금융사업팀",
         "full_title": "팀장 (경기남부금융사업팀)"
       },
       "division_head": {
-        "name": "미지원",
+        "name": "변기면",
         "department": "경기남부지역본부",
         "full_title": "지역본부장 (경기남부지역본부)"
       },
@@ -202,8 +202,8 @@
         ]
       },
       "automation_config": {
-        "enable_new_registration": false,
-        "enable_auto_continue": false,
+        "enable_new_registration": true,
+        "enable_auto_continue": true,
         "verify_name_existing_case": true
       },
       "memo_config": {
