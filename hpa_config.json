@@ -5,6 +5,13 @@
         "title": "기능개선 및 버전업",
         "message": "RPA 자동백업후 파일업로드 기능 개선, HPA 나의사건검색 연계 추가"
     },
+    "memo_templates": {
+        "_comment": "HPA 메모 양식. 중괄호 안의 항목은 실행 시 FMS/엑셀 값으로 치환됩니다.",
+        "special_credit": {
+            "notice": "※ 특수채권(새출발)사건이므로 확인을 위해 임시저장까지만 진행",
+            "request": "[특수채권 확인 요청]\n1. 업체번호 : {company_numbers}\n2. 사건명 : {court} {case_number}\n3. 신청일 : {application_date}"
+        }
+    },
     "auto_delete_rules": {
         "_comment": "변경전 파일명 컬럼에 없어도, 이 정규식을 만족하는 파일명은 삭제 및 백업됩니다.",
         "regex_patterns": [
