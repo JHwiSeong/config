@@ -2,14 +2,14 @@
     "_comment": "HPA 외부 설정 파일 - GitHub에서 관리. 이 파일을 수정하면 코드 재배포 없이 설정이 반영됩니다.",
     "global_notice": {
         "enable": true,
-        "title": "[2026-08-21] 버전 업(v2.1.0) 및 버그개선",
-        "message": "RPA 자동백업후 파일업로드 기능 개선, HPA 나의사건검색 연계 추가+버그 개선"
+        "title": "[2026-09-03] 버전 업(v2.1.2) 및 버그개선",
+        "message": "특수채권 복붙용 메모개선, 단건기능 버그수정, 메뉴이동 개선"
     },
     "memo_templates": {
         "_comment": "HPA 메모 양식. 중괄호 안의 항목은 실행 시 FMS/엑셀 값으로 치환됩니다.",
         "special_credit": {
             "notice": "※ 특수채권(새출발)사건이므로 확인을 위해 임시저장까지만 진행",
-            "request": "[특수채권 확인 요청]\n1. 업체번호 : {company_numbers}\n2. 사건명 : {court} {case_number}\n3. 신청일 : {application_date}"
+            "request": "[특수채권·새출발 확인 요청]\n1. 업체번호 : {company_numbers}\n2. 사건명 : {court} {case_number}\n3. 신청일 : {application_date}"
         }
     },
     "auto_delete_rules": {
@@ -116,7 +116,13 @@
         "_comment": "fms 및 e_litigation 사이트의 요소.",
         "fms": {
             "_comment_fms": "회생/파산관리 화면 공통 요소",
-            "side_menu_btn": "mf_wfm_side_anc_menu02",
+            "top_aftercare_menu": "mf_wfm_header_gen_firstGenerator_5_btn_menu1_Label",
+            "side_menu_btn": "mf_wfm_side_anc_menu",
+            "regular_menu_btn": "mf_wfm_side_anc_menu",
+            "favorite_menu_btn": "mf_wfm_side_anc_menu02",
+            "side_menu_tree": "mf_wfm_side_trv_menu",
+            "rehab_bankruptcy_parent_menu_code": "MPFM8000",
+            "rehab_bankruptcy_target_menu_code": "MPFM8010",
             "loading_bar": "___processbar2",
             "modal_overlay": "_modal",
             "privacy_checkbox": "mf_wdc_main_subWindow0_wframe_contentHeader_chb_maskYn",
