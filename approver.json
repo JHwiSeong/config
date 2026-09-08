@@ -163,8 +163,8 @@
         ]
       },
       "automation_config": {
-        "enable_new_registration": false,
-        "enable_auto_continue": false,
+        "enable_new_registration": true,
+        "enable_auto_continue": true,
         "verify_name_existing_case": true
       },
       "memo_config": {
@@ -241,8 +241,8 @@
         ]
       },
       "automation_config": {
-        "enable_new_registration": false,
-        "enable_auto_continue": false,
+        "enable_new_registration": true,
+        "enable_auto_continue": true,
         "verify_name_existing_case": true
       },
       "memo_config": {
@@ -319,8 +319,8 @@
         ]
       },
       "automation_config": {
-        "enable_new_registration": false,
-        "enable_auto_continue": false,
+        "enable_new_registration": true,
+        "enable_auto_continue": true,
         "verify_name_existing_case": true
       },
       "memo_config": {
@@ -513,8 +513,8 @@
         ]
       },
       "automation_config": {
-        "enable_new_registration": false,
-        "enable_auto_continue": false,
+        "enable_new_registration": true,
+        "enable_auto_continue": true,
         "verify_name_existing_case": true
       },
       "memo_config": {
